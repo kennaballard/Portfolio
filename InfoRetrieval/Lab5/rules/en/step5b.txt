@@ -1,0 +1,1 @@
+AND(MEASURE(>1),ENDS_WITH(l)) l -> 

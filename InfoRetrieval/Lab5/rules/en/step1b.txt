@@ -1,0 +1,12 @@
+MEASURE(>0) eed -> ee  
+MEASURE(=0) eed -> eed  
+HAS_VOWEL ated -> ate
+HAS_VOWEL bled -> ble
+HAS_VOWEL ized -> iz
+AND(MEASURE(=1),NOT(AND(ENDS_CVC,NOT(OR(ENDS_WITH(w),OR(ENDS_WITH(x),ENDS_WITH(y))))))) ed -> e  
+HAS_VOWEL ed ->  
+HAS_VOWEL ating -> ate
+HAS_VOWEL bling -> ble 
+HAS_VOWEL izing -> ize
+AND(MEASURE(=1),NOT(AND(ENDS_CVC,NOT(OR(ENDS_WITH(w),OR(ENDS_WITH(x),ENDS_WITH(y))))))) ing -> e 
+HAS_VOWEL ing -> 

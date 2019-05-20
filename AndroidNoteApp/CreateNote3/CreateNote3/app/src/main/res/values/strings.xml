@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CreateNote</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_note_list">NoteListActivity</string>
+    <string name="menu_actionmode">Action Mode</string>
+    <string name="actionmode_title">Action Mode</string>
+</resources>

@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.a1649618.createnote.com.example.a1649618.ui.Editor.CreateNote">
+    <item
+        android:id="@+id/share_menu"
+        android:title="Share"
+        app:showAsAction="ifRoom" />
+</menu>

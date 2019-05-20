@@ -1,0 +1,1 @@
+All images copyright (c) 2017 Ian Clement.  All rights reserved.

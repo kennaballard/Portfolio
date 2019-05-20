@@ -1,0 +1,5 @@
+NONE sses -> ss
+NONE ies -> i
+NONE ss -> ss
+NONE s ->
+

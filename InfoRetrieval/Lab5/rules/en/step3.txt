@@ -1,0 +1,7 @@
+MEASURE(>0) icate -> ic
+MEASURE(>0) ative ->
+MEASURE(>0) alize -> al
+MEASURE(>0) iciti -> ic
+MEASURE(>0) ical -> ic
+MEASURE(>0) ful ->
+MEASURE(>0) ness ->
