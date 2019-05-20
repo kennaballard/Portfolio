@@ -1,0 +1,386 @@
+/* ================================================ 
+   Define grids for different size screens 
+   ================================================ */
+   
+/*********************************/ 
+/********* mobile phones *********/
+/*********************************/ 
+
+    .site {
+        display:grid;
+        grid-template-columns: 4fr 1fr;
+        grid-template-rows: auto auto auto auto;
+        grid-gap: 5px;
+        grid-template-areas:
+            "header header"
+            "sidebar sidebar"
+            "main main"
+            "footer footer";
+    }
+    
+    .main {
+        grid-area: main;
+        grid-columns: 1;
+        grid-rows: 1;
+        grid-template-areas:
+        "inner";
+    }
+    
+    .chatroom {
+        background-color: #4580ad;
+        color: #DCDCDC;
+        grid-area: inner;
+        min-height: 100px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 4fr 1fr;
+        grid-template-areas:
+        "toolbar"
+        "message"
+        "send";
+    }
+
+    .login {
+        background-color: #4580ad;
+        color: #DCDCDC;
+        grid-area: inner;
+        min-height: 100px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-gap: 5px;
+        grid-template-areas:
+            "txt txt"
+            "boxes boxes"
+            "btn1 btn3"
+            "btn2 empty";
+    }
+    
+    .sidebar {
+        text-align:center;
+        background-color: #c59fc9;
+        
+        grid-area: sidebar;
+    
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto auto;
+        grid-gap: 10px;
+        grid-template-areas:
+        "lang langSelect"
+        "disconn discBtn";
+    }
+    
+/************************************/  
+/********* computer screens *********/
+/************************************/ 
+
+@media screen and (min-width: 600px) {
+    .site {
+        display:grid;
+        grid-gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 3fr 1fr;
+        grid-template-areas:
+            "header header header"
+            "main main sidebar"
+            "footer footer footer";
+    }
+}
+
+@media screen and (min-width: 600px) {
+.main {
+        grid-area: main;
+        grid-columns: 1;
+        grid-rows: 1;
+        grid-gap: 10px;
+        height: 100%;
+        grid-template-areas:
+        "inner";
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .login {
+        background-color: #4580ad;
+        color: #DCDCDC;
+        grid-area: inner;
+        min-height: 100px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto auto auto;
+        grid-gap: 10px;
+        grid-template-areas:
+            "txt txt txt"
+            "boxes boxes boxes"
+            "btn1 btn2 btn3";
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .chatroom {
+        background-color: #4580ad;
+        color: #DCDCDC;
+        min-height: 100%;
+        grid-area: inner;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 4fr 1fr;
+        grid-template-areas:
+        "toolbar"
+        "message"
+        "send";
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .sidebar {
+        min-height: 400px;
+        text-align:center;
+        background-color: #c59fc9;
+        grid-area: sidebar;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto;
+        grid-gap: 10px;
+        grid-template-areas:
+        "lang"
+        "langSelect"
+        "disconn"
+        "discBtn";
+    }
+}
+
+
+/********************************************************/
+/****** Stays the same for different screen sizes *******/
+/********************************************************/
+
+    .toolbar{
+        border: solid #25283d;
+        grid-area: toolbar;
+        display: grid;
+        grid-template-columns: 3fr 2fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-gap: 10px;
+        grid-template-areas:
+        "none label dark avatar";
+    }
+    
+    .sendbar {
+        border-style: solid;
+        border-color: #25283d;
+        grid-area: send;
+        display: grid;
+        grid-template-columns: 4fr 1fr;
+        grid-template-rows: auto;
+        grid-gap: 10px;
+        grid-template-areas:
+        "msgtxt sendbtn";
+    }
+    
+    #sendtxt {
+        grid-area: msgtxt;
+    }
+    
+    #sendbtn {
+        grid-area: sendbtn;
+        width: 100%;
+    }
+    
+    .messages{
+        height: 90%;
+        min-height: 400px;
+        max-height: 400px;
+        grid-area: message;
+        overflow-y: scroll;
+    }
+    
+    .header {
+        text-align: center;
+        color: #DCDCDC;
+        background-color: #4f4777;
+        min-height: 100px;
+        grid-area: header;
+    }
+
+    .footer {
+        background-color: #9A5678;
+        grid-area: footer;
+    }
+
+    .textboxes {
+        color: #4580ad;
+        background-color: #C1E0F7;
+        grid-area: boxes;
+    }
+
+    .innerText {
+        grid-area: txt;
+    }
+
+    .btn1 {
+        background-color: #C1E0F7;
+        grid-area: btn1;
+        text-align:center;
+        align-items: center;
+    }
+
+    .btn2 {
+        background-color: #C1E0F7;
+        grid-area: btn2;
+        text-align:center;
+        align-items: center;
+    }
+
+    .btn3 {
+        background-color: #C1E0F7;
+        grid-area: btn3;
+        text-align:center;
+        align-items: center;
+    }
+    
+    .disconnect {
+        grid-area: disconn;
+        vertical-align: middle;
+    }
+ 
+    .language {
+        grid-area: lang;
+        vertical-align: middle;
+    }
+    
+    .disconnBtn {
+        grid-area: discBtn;
+        vertical-align: middle;
+        text-align:center;
+    }
+    
+    .langSelect {
+        grid-area: langSelect;
+        vertical-align: middle;
+        text-align:center;
+    }
+    
+    .avatar {
+        grid-area: avatar;
+    }
+    
+    .dark_mode {
+        grid-area: dark;
+    }
+    
+    .label {
+        grid-area: label;
+    }
+
+/***************************/
+/******* General Css *******/
+/***************************/
+    div {
+        border-radius: 5px;
+        font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+        padding: 10px 10px 10px 10px;
+        vertical-align: middle;
+        margin: 0px;
+        align-items: center;
+        word-wrap: break-word;
+    }
+
+    button {
+        width: 100%;
+        padding: 10px 10px;
+        background-color: #e7e7e7; 
+        color: black;
+        border-radius: 4px;
+        border: 2px solid #CCCCCC;
+    }
+    
+    button:hover {
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+    
+     select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    
+    input{
+        width: 66%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    
+    input#sendtxt {
+        width: 80%;
+    }
+    
+    body{
+        background-color: #DCDCDC;
+    }
+    
+    p.err{
+        color:red;
+    }
+    
+    p.success{
+        color: olivedrab;
+    }
+    
+    .messageHeader {
+        border-bottom: 2px solid;
+        border-radius: 0;
+    }
+    
+    .messageContent {
+        border-style: inset;
+        border-color: #4580ad;
+    }
+    
+    .message {
+        clear: both;
+        border-style: solid;
+        border-color: #25283d;
+        width: 60%;
+        max-width: 600px;
+        margin: 10px;
+        float: left;
+        background-color: #C1E0F7;
+        color: #4580ad;
+    }
+    
+    a {
+        word-wrap: break-word;
+    }
+    
+    img {
+        max-width: 100%;
+        max-height: 100px;
+    }
+    
+    input[type='file']{
+        opacity: 0;
+    }
+    
+    #avatar{
+        height: 30px;
+        max-width: 40px;
+        border-radius: 50%;
+        vertical-align: middle;
+        border-style: solid;
+        border-width: 5px;
+    }
+    
+    label {
+        float: right;
+    }
+    
+    

@@ -1,0 +1,1144 @@
+[21-Nov-2018 18:51:59 UTC] PHP Warning:  include_once(/home/ubuntu/workspace/development/asg8/View/Control/useful_functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/development/asg8/View/main.php on line 7
+[21-Nov-2018 18:51:59 UTC] PHP Stack trace:
+[21-Nov-2018 18:51:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/View/main.php:0
+[21-Nov-2018 18:51:59 UTC] PHP Warning:  include_once(): Failed opening '/home/ubuntu/workspace/development/asg8/View/Control/useful_functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/development/asg8/View/main.php on line 7
+[21-Nov-2018 18:51:59 UTC] PHP Stack trace:
+[21-Nov-2018 18:51:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/View/main.php:0
+[21-Nov-2018 18:51:59 UTC] PHP Fatal error:  Call to undefined function get_set_language() in /home/ubuntu/workspace/development/asg8/View/main.php on line 10
+[21-Nov-2018 18:51:59 UTC] PHP Stack trace:
+[21-Nov-2018 18:51:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/View/main.php:0
+[21-Nov-2018 18:54:05 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, null given in /home/ubuntu/workspace/development/asg8/Control/useful_functions.php on line 85
+[21-Nov-2018 18:54:05 UTC] PHP Stack trace:
+[21-Nov-2018 18:54:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/View/main.php:0
+[21-Nov-2018 18:54:05 UTC] PHP   2. get_set_language() /home/ubuntu/workspace/development/asg8/View/main.php:10
+[21-Nov-2018 18:54:05 UTC] PHP   3. array_keys() /home/ubuntu/workspace/development/asg8/Control/useful_functions.php:85
+[21-Nov-2018 18:54:05 UTC] PHP Warning:  in_array() expects parameter 2 to be array, null given in /home/ubuntu/workspace/development/asg8/Control/useful_functions.php on line 92
+[21-Nov-2018 18:54:05 UTC] PHP Stack trace:
+[21-Nov-2018 18:54:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/View/main.php:0
+[21-Nov-2018 18:54:05 UTC] PHP   2. get_set_language() /home/ubuntu/workspace/development/asg8/View/main.php:10
+[21-Nov-2018 18:54:05 UTC] PHP   3. in_array() /home/ubuntu/workspace/development/asg8/Control/useful_functions.php:92
+[21-Nov-2018 18:54:05 UTC] PHP Fatal error:  Uncaught  --> Smarty: Unable to load template 'file:/home/ubuntu/workspace/development/asg8/Control/../View/Templates/page.tpl' <-- 
+  thrown in /home/ubuntu/workspace/smarty/libs/sysplugins/smarty_internal_template.php on line 195
+[28-Nov-2018 18:02:00 UTC] PHP Warning:  include_once(/home/ubuntu/workspace/development/asg8/View/View/dictionary.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/development/asg8/View/main.php on line 6
+[28-Nov-2018 18:02:00 UTC] PHP Stack trace:
+[28-Nov-2018 18:02:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/View/main.php:0
+[28-Nov-2018 18:02:00 UTC] PHP Warning:  include_once(): Failed opening '/home/ubuntu/workspace/development/asg8/View/View/dictionary.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/development/asg8/View/main.php on line 6
+[28-Nov-2018 18:02:00 UTC] PHP Stack trace:
+[28-Nov-2018 18:02:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/View/main.php:0
+[28-Nov-2018 18:02:00 UTC] PHP Warning:  include_once(./Control/useful_functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/development/asg8/View/main.php on line 7
+[28-Nov-2018 18:02:00 UTC] PHP Stack trace:
+[28-Nov-2018 18:02:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/View/main.php:0
+[28-Nov-2018 18:02:00 UTC] PHP Warning:  include_once(): Failed opening './Control/useful_functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/development/asg8/View/main.php on line 7
+[28-Nov-2018 18:02:00 UTC] PHP Stack trace:
+[28-Nov-2018 18:02:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/View/main.php:0
+[28-Nov-2018 18:02:00 UTC] PHP Fatal error:  Call to undefined function get_set_language() in /home/ubuntu/workspace/development/asg8/View/main.php on line 11
+[28-Nov-2018 18:02:00 UTC] PHP Stack trace:
+[28-Nov-2018 18:02:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/View/main.php:0
+[28-Nov-2018 18:03:03 UTC] PHP Fatal error:  Uncaught  --> Smarty: Unable to load template 'file:./Templates/header.tpl' in './Templates/page.tpl' <-- 
+  thrown in /home/ubuntu/workspace/smarty/libs/sysplugins/smarty_internal_template.php on line 195
+[01-Dec-2018 04:55:25 UTC] PHP Notice:  Undefined index: username in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 271
+[01-Dec-2018 04:55:25 UTC] PHP Stack trace:
+[01-Dec-2018 04:55:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[01-Dec-2018 04:55:25 UTC] PHP   2. loggedInUser() /home/ubuntu/workspace/development/asg8/Control/messages.php:105
+[01-Dec-2018 04:55:34 UTC] PHP Notice:  Undefined index: username in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 271
+[01-Dec-2018 04:55:34 UTC] PHP Stack trace:
+[01-Dec-2018 04:55:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[01-Dec-2018 04:55:34 UTC] PHP   2. loggedInUser() /home/ubuntu/workspace/development/asg8/Control/messages.php:105
+[01-Dec-2018 04:55:39 UTC] PHP Notice:  Undefined index: username in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 271
+[01-Dec-2018 04:55:39 UTC] PHP Stack trace:
+[01-Dec-2018 04:55:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[01-Dec-2018 04:55:39 UTC] PHP   2. loggedInUser() /home/ubuntu/workspace/development/asg8/Control/messages.php:105
+[01-Dec-2018 04:56:53 UTC] PHP Notice:  Undefined index: username in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 271
+[01-Dec-2018 04:56:53 UTC] PHP Stack trace:
+[01-Dec-2018 04:56:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[01-Dec-2018 04:56:53 UTC] PHP   2. loggedInUser() /home/ubuntu/workspace/development/asg8/Control/messages.php:105
+[01-Dec-2018 04:58:23 UTC] PHP Notice:  Undefined index: username in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 271
+[01-Dec-2018 04:58:23 UTC] PHP Stack trace:
+[01-Dec-2018 04:58:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[01-Dec-2018 04:58:23 UTC] PHP   2. loggedInUser() /home/ubuntu/workspace/development/asg8/Control/messages.php:105
+[01-Dec-2018 19:36:43 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 190
+[01-Dec-2018 19:36:44 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 190
+[01-Dec-2018 19:36:45 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 190
+[01-Dec-2018 19:36:46 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 190
+[01-Dec-2018 19:36:47 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 190
+[01-Dec-2018 19:36:48 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 190
+[01-Dec-2018 19:36:49 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 190
+[01-Dec-2018 19:36:50 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 190
+[01-Dec-2018 19:36:51 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 190
+[01-Dec-2018 19:36:52 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 190
+[01-Dec-2018 19:36:53 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 190
+[01-Dec-2018 19:36:54 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 190
+[01-Dec-2018 19:36:55 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 182
+[01-Dec-2018 19:36:56 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 182
+[01-Dec-2018 19:36:58 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 182
+[01-Dec-2018 19:37:15 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 182
+[01-Dec-2018 19:37:16 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 182
+[01-Dec-2018 19:37:17 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 182
+[01-Dec-2018 19:37:18 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 182
+[01-Dec-2018 19:37:19 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 182
+[01-Dec-2018 19:37:20 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 182
+[01-Dec-2018 19:37:21 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 182
+[01-Dec-2018 19:37:22 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 182
+[01-Dec-2018 19:37:23 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 182
+[01-Dec-2018 19:37:24 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 182
+[01-Dec-2018 19:37:25 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 182
+[01-Dec-2018 19:37:26 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 182
+[01-Dec-2018 19:37:27 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 190
+[01-Dec-2018 19:37:29 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 190
+[01-Dec-2018 19:37:40 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 190
+[01-Dec-2018 19:43:51 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 183
+[01-Dec-2018 19:43:55 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 183
+[03-Dec-2018 21:31:51 UTC] PHP Warning:  require_once(/home/ubuntu/workspace/development/asg8/View/date_format.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 7
+[03-Dec-2018 21:31:51 UTC] PHP Stack trace:
+[03-Dec-2018 21:31:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[03-Dec-2018 21:31:51 UTC] PHP   2. require_once() /home/ubuntu/workspace/development/asg8/Control/messages.php:13
+[03-Dec-2018 21:31:51 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/ubuntu/workspace/development/asg8/View/date_format.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 7
+[03-Dec-2018 21:31:51 UTC] PHP Stack trace:
+[03-Dec-2018 21:31:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[03-Dec-2018 21:31:51 UTC] PHP   2. require_once() /home/ubuntu/workspace/development/asg8/Control/messages.php:13
+[12-Dec-2018 06:32:28 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:28 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:28 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:28 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:28 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:28 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:29 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:29 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:29 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:29 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:29 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:29 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:30 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:30 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:30 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:30 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:30 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:30 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:31 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:31 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:31 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:31 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:31 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:31 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:32 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:32 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:32 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:32 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:32 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:32 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:33 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:33 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:33 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:33 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:33 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:33 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:34 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:34 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:34 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:34 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:34 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:34 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:35 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:35 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:35 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:35 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:35 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:35 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:36 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:36 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:36 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:36 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:36 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:36 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:37 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:37 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:37 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:37 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:37 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:37 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:38 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:38 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:38 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:38 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:38 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:38 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:39 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:39 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:39 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:39 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:39 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:39 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:40 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:40 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:40 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:40 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:40 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:40 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:41 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:41 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:41 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:41 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:41 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:41 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:42 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:42 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:42 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:42 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:42 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:42 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:43 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:43 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:43 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:43 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:43 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:43 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:44 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:44 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:44 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:44 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:44 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:44 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:45 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:45 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:45 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:45 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:45 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:45 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:46 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:46 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:46 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:46 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:46 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:46 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:47 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:47 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:47 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:47 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:47 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:47 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:48 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:48 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:48 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:48 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:48 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:48 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:49 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:49 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:49 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:49 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:49 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:49 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:50 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:50 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:50 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:50 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:50 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:50 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:51 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:51 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:51 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:51 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:51 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:51 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:52 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:52 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:52 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:52 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:52 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:52 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:53 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:53 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:53 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:53 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:53 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:53 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:54 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:54 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:54 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:54 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:54 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:54 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:55 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:55 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:55 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:55 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:55 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:55 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:56 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:56 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:56 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:56 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:56 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:56 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:57 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:57 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:57 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:57 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:57 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:57 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:58 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:58 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:58 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:58 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:58 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:58 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:59 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:59 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:59 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:32:59 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:32:59 UTC] PHP Stack trace:
+[12-Dec-2018 06:32:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:32:59 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:33:00 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:33:00 UTC] PHP Stack trace:
+[12-Dec-2018 06:33:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:33:00 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:33:00 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:33:00 UTC] PHP Stack trace:
+[12-Dec-2018 06:33:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:33:00 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:33:01 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:33:01 UTC] PHP Stack trace:
+[12-Dec-2018 06:33:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:33:01 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:33:01 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:33:01 UTC] PHP Stack trace:
+[12-Dec-2018 06:33:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:33:01 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:33:02 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:33:02 UTC] PHP Stack trace:
+[12-Dec-2018 06:33:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:33:02 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:33:02 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:33:02 UTC] PHP Stack trace:
+[12-Dec-2018 06:33:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:33:02 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:33:03 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:33:03 UTC] PHP Stack trace:
+[12-Dec-2018 06:33:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:33:03 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:33:03 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:33:03 UTC] PHP Stack trace:
+[12-Dec-2018 06:33:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:33:03 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:33:04 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:33:04 UTC] PHP Stack trace:
+[12-Dec-2018 06:33:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:33:04 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:33:04 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:33:04 UTC] PHP Stack trace:
+[12-Dec-2018 06:33:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:33:04 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:33:05 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:33:05 UTC] PHP Stack trace:
+[12-Dec-2018 06:33:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:33:05 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:33:05 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:33:05 UTC] PHP Stack trace:
+[12-Dec-2018 06:33:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:33:05 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:33:06 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:33:06 UTC] PHP Stack trace:
+[12-Dec-2018 06:33:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:33:06 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:33:06 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:33:06 UTC] PHP Stack trace:
+[12-Dec-2018 06:33:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:33:06 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:33:07 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:33:07 UTC] PHP Stack trace:
+[12-Dec-2018 06:33:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:33:07 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:33:07 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:33:07 UTC] PHP Stack trace:
+[12-Dec-2018 06:33:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:33:07 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:33:08 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:33:08 UTC] PHP Stack trace:
+[12-Dec-2018 06:33:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:33:08 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:33:08 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:33:08 UTC] PHP Stack trace:
+[12-Dec-2018 06:33:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:33:08 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:33:09 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:33:09 UTC] PHP Stack trace:
+[12-Dec-2018 06:33:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:33:09 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:33:09 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 173
+[12-Dec-2018 06:33:09 UTC] PHP Stack trace:
+[12-Dec-2018 06:33:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:33:09 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:53:52 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:53:52 UTC] PHP Stack trace:
+[12-Dec-2018 06:53:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:53:52 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:53:52 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:53:52 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:53:53 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:53:53 UTC] PHP Stack trace:
+[12-Dec-2018 06:53:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:53:53 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:53:53 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:53:53 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:53:54 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:53:54 UTC] PHP Stack trace:
+[12-Dec-2018 06:53:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:53:54 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:53:54 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:53:54 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:53:55 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:53:55 UTC] PHP Stack trace:
+[12-Dec-2018 06:53:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:53:55 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:53:55 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:53:55 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:53:56 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:53:56 UTC] PHP Stack trace:
+[12-Dec-2018 06:53:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:53:56 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:53:56 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:53:56 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:53:57 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:53:57 UTC] PHP Stack trace:
+[12-Dec-2018 06:53:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:53:57 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:53:57 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:53:57 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:53:58 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:53:58 UTC] PHP Stack trace:
+[12-Dec-2018 06:53:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:53:58 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:53:58 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:53:58 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:53:59 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:53:59 UTC] PHP Stack trace:
+[12-Dec-2018 06:53:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:53:59 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:53:59 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:53:59 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:00 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:00 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:00 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:00 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:00 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:01 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:01 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:01 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:01 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:01 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:02 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:02 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:02 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:02 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:02 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:03 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:03 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:03 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:03 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:03 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:04 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:04 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:04 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:04 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:04 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:05 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:05 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:05 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:05 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:05 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:06 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:06 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:06 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:06 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:06 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:07 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:07 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:07 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:07 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:07 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:08 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:08 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:08 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:08 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:08 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:09 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:09 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:09 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:09 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:09 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:10 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:10 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:10 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:10 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:10 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:11 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:11 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:11 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:11 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:11 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:12 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:12 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:12 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:12 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:12 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:13 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:13 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:13 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:13 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:13 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:14 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:14 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:14 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:14 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:14 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:15 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:15 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:15 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:15 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:15 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:16 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:16 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:16 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:16 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:16 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:17 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:17 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:17 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:17 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:17 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:18 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:18 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:18 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:18 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:18 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:19 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:19 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:19 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:19 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:19 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:20 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:20 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:20 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:20 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:20 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:21 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:21 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:21 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:21 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:21 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:22 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:22 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:22 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:22 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:22 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:23 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:23 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:23 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:23 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:23 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:24 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:24 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:24 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:24 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:24 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:25 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:25 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:25 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:25 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:25 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:26 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:26 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:26 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:26 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:26 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:27 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:27 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:27 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:27 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:27 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:28 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:28 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:28 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:28 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:28 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:29 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:29 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:29 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:29 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:29 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:30 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:30 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:30 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:30 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:30 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:31 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:31 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:31 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:31 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:31 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:32 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:32 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:32 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:32 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:32 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:33 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:33 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:33 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:33 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:33 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:34 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:34 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:34 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:34 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:34 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:35 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:35 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:35 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:35 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:35 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:36 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:36 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:36 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:36 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:36 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:37 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:37 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:37 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:37 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:37 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:38 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:38 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:38 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:38 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:38 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:39 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:39 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:39 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:39 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:39 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:40 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:40 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:40 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:40 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:40 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:41 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:41 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:41 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:41 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:41 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:42 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:42 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:42 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:42 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:42 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:43 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:43 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:43 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:43 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:43 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:44 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:44 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:44 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:44 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:44 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:45 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:45 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:45 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:45 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:45 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:46 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:46 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:46 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:46 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:46 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:47 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:47 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:47 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:47 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:47 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:48 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:48 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:48 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:48 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:48 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:49 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:49 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:49 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:49 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:49 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:50 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:50 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:50 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:50 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:50 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:51 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:51 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:51 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:51 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:51 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:52 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:52 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:52 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:52 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:52 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:53 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:53 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:53 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:53 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:53 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:54 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:54 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:54 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:54 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:54 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:55 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:55 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:55 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:55 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:55 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:56 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:56 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:56 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:56 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:56 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:57 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:57 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:57 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:57 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:57 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:58 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:58 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:58 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:58 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:58 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:54:59 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:54:59 UTC] PHP Stack trace:
+[12-Dec-2018 06:54:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:54:59 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:54:59 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:54:59 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:55:00 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:55:00 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:00 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:55:00 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:55:00 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:55:01 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:55:01 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:01 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:55:01 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:55:01 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:55:02 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:55:02 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:02 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:55:02 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:55:02 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:55:03 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:55:03 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:03 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:55:03 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:55:03 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:55:04 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:55:04 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:04 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:55:04 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:55:04 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:55:05 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:55:05 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:05 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:55:05 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:55:05 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:55:06 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:55:06 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:06 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:55:06 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:55:06 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:55:07 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:55:07 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:07 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:55:07 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:55:07 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:55:08 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:55:08 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:08 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:55:08 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:55:08 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:55:09 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:55:09 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:09 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:55:09 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:55:09 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:55:10 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:55:10 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:10 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:55:10 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:55:10 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:55:11 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:55:11 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:11 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:55:11 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:55:11 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:55:12 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:55:12 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:12 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:55:12 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:55:12 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:55:13 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:55:13 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:13 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:55:13 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:55:13 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:55:14 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:55:14 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:14 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:55:14 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:55:14 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:55:15 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:55:15 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:15 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:55:15 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:55:15 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:55:16 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:55:16 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:16 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:55:16 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:55:16 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:55:17 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:55:17 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:17 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:55:17 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:55:17 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:55:18 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:55:18 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:18 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:55:18 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:55:18 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:55:19 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:55:19 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:19 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:55:19 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:55:19 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:55:20 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:55:20 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:20 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:55:20 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:55:20 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:55:21 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:55:21 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:21 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:55:21 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:55:21 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:55:22 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:55:22 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:22 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:55:22 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:55:22 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:55:23 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:55:23 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:23 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:55:23 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:55:23 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:55:24 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:55:24 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:24 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:55:24 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:55:24 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:55:25 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:55:25 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:25 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:55:25 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:55:25 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:55:26 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:55:26 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:26 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:55:26 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:55:26 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:55:27 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:55:27 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:27 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:55:27 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:55:27 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:55:28 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:55:28 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:28 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:55:28 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:55:28 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:55:29 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:55:29 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:29 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:55:29 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:55:29 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:55:30 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 55
+[12-Dec-2018 06:55:30 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:30 UTC] PHP   2. getMessages() /home/ubuntu/workspace/development/asg8/Control/messages.php:99
+[12-Dec-2018 06:55:30 UTC] PHP   3. get_messages_older_than() /home/ubuntu/workspace/development/asg8/Control/messages.php:179
+[12-Dec-2018 06:55:30 UTC] PHP   4. mysqli_stmt->bind_result() /home/ubuntu/workspace/development/asg8/Model/DB_messages.php:55
+[12-Dec-2018 06:55:31 UTC] PHP Parse error:  syntax error, unexpected '"time"' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) or '$' in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 67
+[12-Dec-2018 06:55:31 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:32 UTC] PHP Parse error:  syntax error, unexpected '"time"' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) or '$' in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 67
+[12-Dec-2018 06:55:32 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:33 UTC] PHP Parse error:  syntax error, unexpected '"time"' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) or '$' in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 67
+[12-Dec-2018 06:55:33 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:34 UTC] PHP Parse error:  syntax error, unexpected '"time"' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) or '$' in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 67
+[12-Dec-2018 06:55:34 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:35 UTC] PHP Parse error:  syntax error, unexpected '"time"' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) or '$' in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 67
+[12-Dec-2018 06:55:35 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:36 UTC] PHP Parse error:  syntax error, unexpected '"time"' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) or '$' in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 67
+[12-Dec-2018 06:55:36 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:37 UTC] PHP Parse error:  syntax error, unexpected '"time"' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) or '$' in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 67
+[12-Dec-2018 06:55:37 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:38 UTC] PHP Parse error:  syntax error, unexpected '"time"' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) or '$' in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 67
+[12-Dec-2018 06:55:38 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:39 UTC] PHP Parse error:  syntax error, unexpected '"time"' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) or '$' in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 67
+[12-Dec-2018 06:55:39 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:40 UTC] PHP Parse error:  syntax error, unexpected '"time"' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) or '$' in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 67
+[12-Dec-2018 06:55:40 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:41 UTC] PHP Parse error:  syntax error, unexpected '"time"' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) or '$' in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 67
+[12-Dec-2018 06:55:41 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:42 UTC] PHP Parse error:  syntax error, unexpected '"time"' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) or '$' in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 67
+[12-Dec-2018 06:55:42 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:43 UTC] PHP Parse error:  syntax error, unexpected '"time"' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) or '$' in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 67
+[12-Dec-2018 06:55:43 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:44 UTC] PHP Parse error:  syntax error, unexpected '"time"' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) or '$' in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 67
+[12-Dec-2018 06:55:44 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:45 UTC] PHP Parse error:  syntax error, unexpected '"time"' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) or '$' in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 67
+[12-Dec-2018 06:55:45 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:46 UTC] PHP Parse error:  syntax error, unexpected '"time"' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) or '$' in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 67
+[12-Dec-2018 06:55:46 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:47 UTC] PHP Parse error:  syntax error, unexpected '"time"' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) or '$' in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 67
+[12-Dec-2018 06:55:47 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:48 UTC] PHP Parse error:  syntax error, unexpected '"time"' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) or '$' in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 67
+[12-Dec-2018 06:55:48 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:49 UTC] PHP Parse error:  syntax error, unexpected '"time"' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) or '$' in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 67
+[12-Dec-2018 06:55:49 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:55:50 UTC] PHP Parse error:  syntax error, unexpected '"time"' (T_CONSTANT_ENCAPSED_STRING), expecting variable (T_VARIABLE) or '$' in /home/ubuntu/workspace/development/asg8/Model/DB_messages.php on line 67
+[12-Dec-2018 06:55:50 UTC] PHP Stack trace:
+[12-Dec-2018 06:55:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:58:51 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 247
+[12-Dec-2018 06:58:51 UTC] PHP Stack trace:
+[12-Dec-2018 06:58:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:58:51 UTC] PHP   2. changeAvatar() /home/ubuntu/workspace/development/asg8/Control/messages.php:105
+[12-Dec-2018 06:58:51 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 247
+[12-Dec-2018 06:58:51 UTC] PHP Stack trace:
+[12-Dec-2018 06:58:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 06:58:51 UTC] PHP   2. changeAvatar() /home/ubuntu/workspace/development/asg8/Control/messages.php:105
+[12-Dec-2018 07:16:32 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 247
+[12-Dec-2018 07:16:32 UTC] PHP Stack trace:
+[12-Dec-2018 07:16:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 07:16:32 UTC] PHP   2. changeAvatar() /home/ubuntu/workspace/development/asg8/Control/messages.php:105
+[12-Dec-2018 07:16:32 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 247
+[12-Dec-2018 07:16:32 UTC] PHP Stack trace:
+[12-Dec-2018 07:16:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 07:16:32 UTC] PHP   2. changeAvatar() /home/ubuntu/workspace/development/asg8/Control/messages.php:105
+[12-Dec-2018 07:16:33 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 247
+[12-Dec-2018 07:16:33 UTC] PHP Stack trace:
+[12-Dec-2018 07:16:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 07:16:33 UTC] PHP   2. changeAvatar() /home/ubuntu/workspace/development/asg8/Control/messages.php:105
+[12-Dec-2018 07:16:33 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 247
+[12-Dec-2018 07:16:33 UTC] PHP Stack trace:
+[12-Dec-2018 07:16:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 07:16:33 UTC] PHP   2. changeAvatar() /home/ubuntu/workspace/development/asg8/Control/messages.php:105
+[12-Dec-2018 07:17:10 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 247
+[12-Dec-2018 07:17:10 UTC] PHP Stack trace:
+[12-Dec-2018 07:17:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 07:17:10 UTC] PHP   2. changeAvatar() /home/ubuntu/workspace/development/asg8/Control/messages.php:105
+[12-Dec-2018 07:17:10 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 247
+[12-Dec-2018 07:17:10 UTC] PHP Stack trace:
+[12-Dec-2018 07:17:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 07:17:10 UTC] PHP   2. changeAvatar() /home/ubuntu/workspace/development/asg8/Control/messages.php:105
+[12-Dec-2018 07:20:24 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 247
+[12-Dec-2018 07:20:24 UTC] PHP Stack trace:
+[12-Dec-2018 07:20:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 07:20:24 UTC] PHP   2. changeAvatar() /home/ubuntu/workspace/development/asg8/Control/messages.php:105
+[12-Dec-2018 07:20:24 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 247
+[12-Dec-2018 07:20:24 UTC] PHP Stack trace:
+[12-Dec-2018 07:20:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 07:20:24 UTC] PHP   2. changeAvatar() /home/ubuntu/workspace/development/asg8/Control/messages.php:105
+[12-Dec-2018 07:21:20 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 247
+[12-Dec-2018 07:21:20 UTC] PHP Stack trace:
+[12-Dec-2018 07:21:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 07:21:20 UTC] PHP   2. changeAvatar() /home/ubuntu/workspace/development/asg8/Control/messages.php:105
+[12-Dec-2018 07:21:20 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 247
+[12-Dec-2018 07:21:20 UTC] PHP Stack trace:
+[12-Dec-2018 07:21:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 07:21:20 UTC] PHP   2. changeAvatar() /home/ubuntu/workspace/development/asg8/Control/messages.php:105
+[12-Dec-2018 07:22:59 UTC] PHP Notice:  Undefined variable: USR_ND_CODE in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 247
+[12-Dec-2018 07:22:59 UTC] PHP Stack trace:
+[12-Dec-2018 07:22:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 07:22:59 UTC] PHP   2. changeAvatar() /home/ubuntu/workspace/development/asg8/Control/messages.php:105
+[12-Dec-2018 07:22:59 UTC] PHP Notice:  Undefined variable: USR_ND_MSG in /home/ubuntu/workspace/development/asg8/Control/messages.php on line 247
+[12-Dec-2018 07:22:59 UTC] PHP Stack trace:
+[12-Dec-2018 07:22:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg8/Control/messages.php:0
+[12-Dec-2018 07:22:59 UTC] PHP   2. changeAvatar() /home/ubuntu/workspace/development/asg8/Control/messages.php:105

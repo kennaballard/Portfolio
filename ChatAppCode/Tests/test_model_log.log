@@ -1,0 +1,19 @@
+[09-Oct-2018 18:20:08 UTC] Cannot create <sandy>, already exists
+[09-Oct-2018 18:20:08 UTC] Cannot create <sandy>, already exists
+[09-Oct-2018 18:20:09 UTC] sandy failed to verify password
+[09-Oct-2018 18:20:09 UTC] sandy failed to verify password
+[09-Oct-2018 18:20:09 UTC] bob tried to validate, but does not exist
+[09-Oct-2018 18:22:13 UTC] Cannot create <sandy>, already exists
+[09-Oct-2018 18:22:13 UTC] Cannot create <sandy>, already exists
+[09-Oct-2018 18:22:14 UTC] sandy failed to verify password
+[09-Oct-2018 18:22:14 UTC] sandy failed to verify password
+[09-Oct-2018 18:22:14 UTC] bob tried to validate, but does not exist
+[12-Nov-2018 21:19:36 UTC] PHP Notice:  Undefined variable: result in /home/ubuntu/workspace/development/asg7/Tests/test_model_messages.php on line 87
+[12-Nov-2018 21:19:36 UTC] PHP Stack trace:
+[12-Nov-2018 21:19:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg7/Tests/test_model_messages.php:0
+[12-Nov-2018 21:19:36 UTC] PHP Notice:  Undefined variable: result in /home/ubuntu/workspace/development/asg7/Tests/test_model_messages.php on line 96
+[12-Nov-2018 21:19:36 UTC] PHP Stack trace:
+[12-Nov-2018 21:19:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg7/Tests/test_model_messages.php:0
+[13-Nov-2018 00:33:06 UTC] PHP Notice:  Array to string conversion in /home/ubuntu/workspace/development/asg7/Tests/test_model_messages.php on line 170
+[13-Nov-2018 00:33:06 UTC] PHP Stack trace:
+[13-Nov-2018 00:33:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/development/asg7/Tests/test_model_messages.php:0
