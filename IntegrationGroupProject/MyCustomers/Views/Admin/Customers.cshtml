@@ -1,0 +1,42 @@
+﻿@model IEnumerable<MyCustomers.Models.User>
+@{
+    ViewData["Title"] = "List of customers";
+}
+
+<style>
+    table {
+        table-layout: fixed;
+        width: 100%;
+    }
+</style>
+
+<div style="padding:30px;">
+    <h2>Customers</h2>
+    <table class="table table-hover table-bordered">
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Subcription</th>
+                <th scope="col">Rented movies</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model)
+            {
+            <tr>
+                <th scope="row">@user.ID</th>
+                <td>@Html.ActionLink(user.Username, "Customer", "Admin", new { id = user.ID })</td>
+                <td>@user.Role</td>
+                <td>@Html.ActionLink("Rented Movies", "RentedMoviesAdmin", "Admin", new { id = user.ID })</td>
+                <td>
+                    <button>@Html.ActionLink("Edit", "Customer", "Admin", new { id = user.ID })</button>
+                    <button>@Html.ActionLink("Delete", "CustomerDelete", "Admin", new { id = user.ID })</button>
+                </td>
+            </tr>
+            
+            }
+        </tbody>
+    </table>
+</div>

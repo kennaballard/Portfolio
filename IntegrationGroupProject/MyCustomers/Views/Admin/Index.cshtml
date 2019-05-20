@@ -1,0 +1,61 @@
+﻿@if (User.Identity.IsAuthenticated)
+{
+    if (User.IsInRole("Admin"))
+    {
+        <div class="container" style="margin-top:25px;">
+            <h1 style="padding-left:0px;">Hello, @User.Identity.Name</h1>
+            <label>Account Settings</label><br />
+            <p>
+                <a asp-action="Account">Manage your account</a>
+            </p>
+            <p>
+                <a asp-action="RentedMovies">Previously rented movies</a>
+            </p>
+            <br /><label>Site Settings</label><br />
+            <p>
+                <a asp-action="Customers">Customers accounts</a>
+            </p>
+            <p>
+                <a asp-action="UpdateMovies"> Update movies available</a>
+            </p><br />
+
+            <form method="post" asp-action="Logout">
+                <button type="submit">Log out</button>
+            </form>
+        </div>
+    }
+    else
+    {
+        <div class="container" style="margin-top:25px;">
+            <h1 style="padding-left:0px;">Hello, @User.Identity.Name</h1>
+
+            <p>
+                <a asp-action="Account">Manage your account</a>
+            </p>
+            <p>
+                <a asp-action="RentedMovies">Previously rented movies</a>
+            </p>
+
+            <form method="post" asp-action="Logout">
+                <button type="submit">Log out</button>
+            </form>
+        </div>
+    }
+
+}
+else
+{
+    <div class="container" style="text-align: center; padding:100px;">
+        @* we need to create Login action in the controller*@
+        <div>
+            <h2>Login</h2>
+            <form method="post" asp-action="Login">
+                <label for="username"> Username</label><br />
+                <center><input type="text" class="form-control" style="width:20%;" id="username" name="username" /></center><br />
+                <label for="password"> Password</label><br />
+                <center><input type="password" class="form-control" style="width:20%;" id="password" name="password" /> </center><br />
+                <button type="submit" class="button" style="margin-top:10px;margin-bottom:25px;">Log in</button>
+            </form>
+        </div>
+    </div>
+}

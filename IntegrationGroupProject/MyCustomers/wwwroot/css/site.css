@@ -1,0 +1,220 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
+for details on configuring this project to bundle and minify static web assets. */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".jpg"] {
+    width: 100%;
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+
+table, th, td, tr {
+    padding: 10px;
+    align-content: center;
+    word-break: break-all;
+}
+table{
+    table-layout: auto;
+}
+
+#movies {
+    width: 100%;
+    align-content:center;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    padding: 15px 15px;
+   
+}
+
+.dropbtn {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    padding: 15px 15px;
+    color: #9d9d9d;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.moviePoster { 
+    width: 100%;
+    max-width:200px;
+    border-radius: 8px;
+}
+
+.moviePoster:hover {
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.poster {
+    width: 30%;
+    padding: 10px;
+    align-self: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1,h2,h3,h4,h5,h6{
+    padding: 10px;
+    align-content: center;
+}
+
+.desc {
+    max-width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#movies{
+    table-layout:fixed;
+}
+
+.review, .review_content, .review_rating {
+    text-align: center;
+    border: 3px solid #E8E8E8;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.review {   
+    background-color: #E8E8E8;
+}
+
+.review_content {
+    max-width: 75%;
+    position: relative;
+    background: #F5F5F5;
+    border-radius: .4em;
+    text-align: left;
+}
+
+.review_content:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 20px solid transparent;
+    border-top-color: #F5F5F5;
+    border-bottom: 0;
+    border-right: 0;
+    margin-left: -10px;
+    margin-bottom: -20px;
+}
+.review_rating {
+    max-width: 20%;
+    text-align: center;
+    background-color: #F5F5F5;
+    text-align:left;
+}
+
+.stars{
+    max-width: 20px;
+}
+
+textarea{
+    text-align: left;
+}
+
+.top_desc {
+    border: 20px solid #E8E8E8;
+    background-color: #F5F5F5;
+}
+
+
+/*Hover style*/
+html {
+    font-family: helvetica, arial, sans-serif;
+}
+
+.img__wrap {
+    position: relative;
+    width: 100%;
+    max-width: 200px;
+}
+
+.img__description_layer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5px;
+    padding-right: 3px;
+    /* transition effect. not necessary */
+    transition: opacity .2s, visibility .2s;
+}
+
+.img__wrap:hover .img__description_layer {
+    visibility: visible;
+    opacity: 1;
+}
+
+.img__description {
+    transition: .2s;
+    transform: translateY(1em);
+}
+
+.img__wrap:hover .img__description {
+    transform: translateY(0);
+}

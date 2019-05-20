@@ -1,0 +1,212 @@
+
+In asg4.sh line 12:
+declare -rix NUM_PROCESSES=`wc -l $PROCESS_FILE | egrep -o '^[^ ]* '`
+                           ^-- SC2006: Use $(..) instead of deprecated `..`
+
+
+In asg4.sh line 13:
+declare -arx PROCESSES_INDEXES=(`seq 0 $(( NUM_PROCESSES - 1))`)
+                                ^-- SC2006: Use $(..) instead of deprecated `..`
+
+
+In asg4.sh line 31:
+	echo $process | cut -d $DELIMETER -f $(( fieldIdx+1))
+             ^-- SC2086: Double quote to prevent globbing and word splitting.
+
+
+In asg4.sh line 52:
+	while [ $i -lt $strLength ] ; do
+                       ^-- SC2086: Double quote to prevent globbing and word splitting.
+
+
+In asg4.sh line 53:
+		if [ $DELIMETER == ${str:$i:$delimLen} ]; then
+                                   ^-- SC2086: Double quote to prevent globbing and word splitting.
+
+
+In asg4.sh line 87:
+	for((i=0; i<$NUM_PROCESSES; i++))
+                    ^-- SC2004: $/${} is unnecessary on arithmetic variables.
+
+
+In asg4.sh line 89:
+		processes[$i]="${processes[$i]},`getField $i 'priority'`"
+                                                ^-- SC2006: Use $(..) instead of deprecated `..`
+
+
+In asg4.sh line 96:
+	for ((i=0; i<$NUM_PROCESSES; i++))
+                     ^-- SC2004: $/${} is unnecessary on arithmetic variables.
+
+
+In asg4.sh line 98:
+		total=$(( total + `getField $i 'remainingTime'` ))
+                                  ^-- SC2006: Use $(..) instead of deprecated `..`
+
+
+In asg4.sh line 109:
+	for ((i=0; i<$NUM_PROCESSES; i++))
+                     ^-- SC2004: $/${} is unnecessary on arithmetic variables.
+
+
+In asg4.sh line 111:
+		remaining=`getField $i 'remainingTime'`
+                          ^-- SC2006: Use $(..) instead of deprecated `..`
+
+
+In asg4.sh line 112:
+		avail=`getField $i 'availTime'`
+                      ^-- SC2006: Use $(..) instead of deprecated `..`
+
+
+In asg4.sh line 113:
+		if [ $remaining -gt 0 ] && [ $avail -le $currentTime ]; then
+                     ^-- SC2086: Double quote to prevent globbing and word splitting.
+                                             ^-- SC2086: Double quote to prevent globbing and word splitting.
+                                                        ^-- SC2086: Double quote to prevent globbing and word splitting.
+
+
+In asg4.sh line 130:
+	local eligibleArr=(`getEligibleProcesses $currentTime`)
+                           ^-- SC2006: Use $(..) instead of deprecated `..`
+                                                 ^-- SC2086: Double quote to prevent globbing and word splitting.
+
+
+In asg4.sh line 133:
+		local highPrior=`getField ${eligibleArr[0]} 'agedPriority'`
+                                ^-- SC2006: Use $(..) instead of deprecated `..`
+
+
+In asg4.sh line 143:
+		currPrior=`getField ${eligibleArr[$i]} 'agedPriority'`
+                          ^-- SC2006: Use $(..) instead of deprecated `..`
+
+
+In asg4.sh line 150:
+			currBurst=`getField ${eligibleArr[$i]} 'burstTime'`
+                                  ^-- SC2006: Use $(..) instead of deprecated `..`
+
+
+In asg4.sh line 151:
+			highBurst=`getField $highPriorIdx 'burstTime'`
+                                  ^-- SC2006: Use $(..) instead of deprecated `..`
+
+
+In asg4.sh line 176:
+	local remaining=`getField $nextProcessIdx 'remainingTime'`
+                        ^-- SC2006: Use $(..) instead of deprecated `..`
+                                  ^-- SC2086: Double quote to prevent globbing and word splitting.
+
+
+In asg4.sh line 192:
+	local burst=`getField $currentProc 'burstTime'`
+                    ^-- SC2006: Use $(..) instead of deprecated `..`
+                              ^-- SC2086: Double quote to prevent globbing and word splitting.
+
+
+In asg4.sh line 193:
+	local remain=`getField $currentProc 'remainingTime'`
+                     ^-- SC2006: Use $(..) instead of deprecated `..`
+                               ^-- SC2086: Double quote to prevent globbing and word splitting.
+
+
+In asg4.sh line 198:
+			echo $burst
+                             ^-- SC2086: Double quote to prevent globbing and word splitting.
+
+
+In asg4.sh line 200:
+			echo $remain
+                             ^-- SC2086: Double quote to prevent globbing and word splitting.
+
+
+In asg4.sh line 203:
+		echo $remain
+                     ^-- SC2086: Double quote to prevent globbing and word splitting.
+
+
+In asg4.sh line 217:
+		if [ ${eligibleArr[$i]} -ne $chosenProc ]; then
+                                            ^-- SC2086: Double quote to prevent globbing and word splitting.
+
+
+In asg4.sh line 218:
+			priority="`getField ${eligibleArr[$i]} 'agedPriority'`"
+                                  ^-- SC2006: Use $(..) instead of deprecated `..`
+
+
+In asg4.sh line 248:
+	printf "%5s..%5s: pid[%2s], tid[%3s], priority[%2s], remaining time[%4s], burst length [%3s].  Status: %15s.  Total time remaining (all threads): %1s.\n" $start $end "`getField $proc 'pid'`" "`getField $proc 'tid'`" "`getField $proc 'agedPriority'`" "`getField $proc 'remainingTime'`" "`getField $proc 'burstTime'`" "$status" "$remains"
+                                                                                                                                                                  ^-- SC2086: Double quote to prevent globbing and word splitting.
+                                                                                                                                                                         ^-- SC2086: Double quote to prevent globbing and word splitting.
+                                                                                                                                                                               ^-- SC2006: Use $(..) instead of deprecated `..`
+                                                                                                                                                                                         ^-- SC2086: Double quote to prevent globbing and word splitting.
+                                                                                                                                                                                                        ^-- SC2006: Use $(..) instead of deprecated `..`
+                                                                                                                                                                                                                  ^-- SC2086: Double quote to prevent globbing and word splitting.
+                                                                                                                                                                                                                                 ^-- SC2006: Use $(..) instead of deprecated `..`
+                                                                                                                                                                                                                                           ^-- SC2086: Double quote to prevent globbing and word splitting.
+                                                                                                                                                                                                                                                                   ^-- SC2006: Use $(..) instead of deprecated `..`
+                                                                                                                                                                                                                                                                             ^-- SC2086: Double quote to prevent globbing and word splitting.
+                                                                                                                                                                                                                                                                                                      ^-- SC2006: Use $(..) instead of deprecated `..`
+                                                                                                                                                                                                                                                                                                                ^-- SC2086: Double quote to prevent globbing and word splitting.
+
+
+In asg4.sh line 259:
+	local util=`echo "scale=4; 100-(($idleTime / $inUse) * 100)" | bc -l`
+                   ^-- SC2006: Use $(..) instead of deprecated `..`
+
+
+In asg4.sh line 263:
+	local procTime=`echo "($totalTime - $idleTime - $LCStime - $HCStime) / $totalTime * 100" | bc -l`
+                       ^-- SC2006: Use $(..) instead of deprecated `..`
+
+
+In asg4.sh line 279:
+	local prior="`getField $nextProcessIdx 'priority'`"
+                     ^-- SC2006: Use $(..) instead of deprecated `..`
+                               ^-- SC2086: Double quote to prevent globbing and word splitting.
+
+
+In asg4.sh line 283:
+	local remaining="`getField $nextProcessIdx 'remainingTime'`"
+                         ^-- SC2006: Use $(..) instead of deprecated `..`
+                                   ^-- SC2086: Double quote to prevent globbing and word splitting.
+
+
+In asg4.sh line 301:
+while [[ "`getRemainingTime`" -gt 0 ]]
+          ^-- SC2006: Use $(..) instead of deprecated `..`
+
+
+In asg4.sh line 318:
+		displayIdle $currentTime $(( currentTime + idleState-1 )) "`getRemainingTime`"
+                                                                           ^-- SC2006: Use $(..) instead of deprecated `..`
+
+
+In asg4.sh line 323:
+	if [[ "`getField $currentProcess 'pid'`" -eq "`getField $prevProc 'pid'`" ]]; then
+               ^-- SC2006: Use $(..) instead of deprecated `..`
+                                                      ^-- SC2006: Use $(..) instead of deprecated `..`
+
+
+In asg4.sh line 325:
+		if [[ "`getField $currentProcess 'tid'`" -ne "`getField $prevProc 'tid'`" ]]; then
+                       ^-- SC2006: Use $(..) instead of deprecated `..`
+                                                              ^-- SC2006: Use $(..) instead of deprecated `..`
+
+
+In asg4.sh line 341:
+	runTime=`getRuntime $currentProcess`
+                ^-- SC2006: Use $(..) instead of deprecated `..`
+
+
+In asg4.sh line 342:
+	state="`runProcess $runTime $currentProcess`"
+               ^-- SC2006: Use $(..) instead of deprecated `..`
+                           ^-- SC2086: Double quote to prevent globbing and word splitting.
+
+
+In asg4.sh line 345:
+	displayProc $currentTime $(( currentTime + runTime - 1 )) $currentProcess "${EXIT_STATES[$state]}" $(( `getRemainingTime` - runTime ))
+                                                                                                               ^-- SC2006: Use $(..) instead of deprecated `..`
+

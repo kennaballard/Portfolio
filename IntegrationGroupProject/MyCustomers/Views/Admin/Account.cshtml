@@ -1,0 +1,25 @@
+﻿@model MyCustomers.Models.User
+@{
+    ViewData["Title"] = "Account";
+}
+
+
+
+<div style="margin:15px;">
+    <form action="/admin/updateuser" method="post">
+        <h2>@Model.Username</h2>
+
+        <br /><label>Membership</label><br />
+        <input type="text" class="form-control" style="width:30%" value="@Model.Role" readonly />
+
+        <br /><label>Account information</label><br />
+        <input type="text" class="form-control" style="width:30%; visibility:hidden;" name="id" value="@Model.ID" />
+        <input type="text" class="form-control" style="width:30%" name="gender" value="@Model.Gender" />
+        <input type="text" class="form-control" style="width:30%" name="birth" value="@Model.DateOfBirth.Value.ToShortDateString()" />
+        <br /><label>Change password</label><br />
+        <input type="password" class="form-control" style="width:30%" name="current" placeholder="Current password" />
+        <input type="password" class="form-control" style="width:30%" name="password" placeholder="New password" />
+        <input type="password" class="form-control" style="width:30%" name="confirm" placeholder="Confirm new password" /><br />
+        <button type="submit">Update information</button>
+    </form>
+</div>

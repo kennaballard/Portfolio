@@ -1,0 +1,56 @@
+﻿@model Tuple<Tuple<User, IEnumerable<Movie>>, IEnumerable<Movie>>
+@{
+    ViewData["Title"] = "Rented movies";
+}
+
+
+<div style="padding:30px;">
+    <h2>Movies Rented for @Model.Item1.Item1.Username</h2>
+    <table class="table table-hover" style="border: 0.5px solid #ddd">
+        <thead>
+            <tr>
+                <th scope="col">Movie</th>
+                <th scope="col"></th>
+                <th scope="col">Genre</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var movie in Model.Item1.Item2)
+            {
+                <tr>
+
+                    <th scope="row"><img src="@movie.PosterFile" style="height:150px; vertical-align: middle;"></th>
+                    <td style="vertical-align: middle;"><h3>@movie.Title</h3></td>
+                    <td style="vertical-align: middle;" scope="col"><h3>@movie.Genre</h3></td>
+
+                </tr>
+
+            }
+        </tbody>
+    </table>
+
+    <h2>Suggested Movies</h2>
+    <h6>(@string.Format("{0:N2}%", Model.Item1.Item1.Probability) % chance that the customer will watch)</h6>
+    <table class="table table-hover" style="border: 0.5px solid #ddd">
+        <thead>
+            <tr>
+                <th scope="col">Movie</th>
+                <th scope="col"></th>
+                <th scope="col">Genre</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var movie in Model.Item2)
+            {
+                <tr>
+
+                    <th scope="row"><img src="@movie.PosterFile" style="height:150px; vertical-align: middle;"></th>
+                    <td style="vertical-align: middle;"><h3>@movie.Title</h3></td>
+                    <td style="vertical-align: middle;" scope="col"><h3>@movie.Genre</h3></td>
+
+                </tr>
+
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,21 @@
+﻿@model List<Movie>
+@{
+    ViewData["Title"] = "mostViewed";
+}
+<h2>Check Out Our Most Popular Movies</h2>
+
+<table>
+    <tr>
+        @foreach (var movie in @Model)
+        {
+            <td align="center">
+                <a href="@Url.Action("Details", new { id=movie.ID })">
+                    <img class="moviePoster" src="@movie.PosterFile" />
+                </a>
+            </td>
+        }
+    </tr>
+</table>
+
+
+

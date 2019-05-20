@@ -1,0 +1,46 @@
+﻿@model MyCustomers.Models.Movie
+@{
+    ViewData["Title"] = "Update movies";
+}
+
+<style>
+    table {
+        table-layout: fixed;
+        width: 100%;
+    }
+</style>
+
+<div style="margin:15px;">
+    <h2>Update Movie</h2>
+    <table class="table table-hover table-bordered w-auto" id="movies">
+        <thead>
+            <tr>
+                <th scope="col" style="width: 5%;">#</th>
+                <th scope="col">Title</th>
+                <th scope="col" style="width: 8%;">Genre</th>
+                <th scope="col" style="width: 5%;">Length</th>
+                <th scope="col" style="width: 12%;">Director</th>
+                <th scope="col" style="width: 7%;">Audience</th>
+                <th scope="col" style="width: 25%;">Description</th>
+                <th scope="col" style="width: 15%;">ReleaseDate</th>
+                <th scope="col">PosterFile</th>
+            </tr>
+        </thead>
+        <form id="update" action="/admin/updated" method="post">
+            <tr>
+                <td><input type="text" class="form-control" name="id" value="@Model.ID" readonly/></td>
+                <td><input type="text" class="form-control" name="title" value="@Model.Title" /></td>
+                <td><input type="text" class="form-control" name="genre" value="@Model.Genre" /></td>
+                <td><input type="text" class="form-control" name="length" value="@Model.Length" /></td>
+                <td><input type="text" class="form-control" name="director" value="@Model.Director" /></td>
+                <td><input type="text" class="form-control" name="audience" value="@Model.Audience" /></td>
+                <td><textarea type="text" class="form-control" rows="5" name="description">@Model.Description</textarea></td>
+                <td><input type="text" class="form-control" name="release" value="@Model.ReleaseDate" /></td>
+                <td><input type="text" class="form-control" name="poster" value="@Model.PosterFile" /></td>
+            </tr>
+        </form>
+    </table>
+    <input type="submit" form="update" value="Update"/>
+
+
+</div>

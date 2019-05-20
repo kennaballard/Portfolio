@@ -1,0 +1,364 @@
+    0..    9: ********** IDLE **********, Total time remaining (all threads): 19232.
+   10..   19: HW context switch
+   20..  112: pid[ 1], tid[ 10], priority[25], remaining time[  93], burst length [221].  Status:      Terminated.  Total time remaining (all threads): 19139.
+  113..  114: LW context switch
+  115..  228: pid[ 1], tid[ 12], priority[77], remaining time[ 114], burst length [121].  Status:      Terminated.  Total time remaining (all threads): 19025.
+  229..  238: HW context switch
+  239..  376: pid[ 2], tid[ 39], priority[66], remaining time[ 519], burst length [138].  Status:    Blocking I/O.  Total time remaining (all threads): 18887.
+  377..  378: LW context switch
+  379..  459: pid[ 2], tid[ 48], priority[77], remaining time[ 787], burst length [ 81].  Status:    Blocking I/O.  Total time remaining (all threads): 18806.
+  460..  461: LW context switch
+  462..  519: pid[ 2], tid[ 43], priority[77], remaining time[ 759], burst length [ 58].  Status:    Blocking I/O.  Total time remaining (all threads): 18748.
+  520..  521: LW context switch
+  522..  721: pid[ 2], tid[ 41], priority[78], remaining time[ 414], burst length [201].  Status: Quantum Expired.  Total time remaining (all threads): 18548.
+  722..  723: LW context switch
+  724..  837: pid[ 2], tid[ 20], priority[92], remaining time[ 849], burst length [114].  Status:    Blocking I/O.  Total time remaining (all threads): 18434.
+  838..  839: LW context switch
+  840.. 1039: pid[ 2], tid[ 34], priority[80], remaining time[ 755], burst length [210].  Status: Quantum Expired.  Total time remaining (all threads): 18234.
+ 1040.. 1041: LW context switch
+ 1042.. 1155: pid[ 2], tid[ 20], priority[92], remaining time[ 735], burst length [114].  Status:    Blocking I/O.  Total time remaining (all threads): 18120.
+ 1156.. 1157: LW context switch
+ 1158.. 1238: pid[ 2], tid[ 48], priority[81], remaining time[ 706], burst length [ 81].  Status:    Blocking I/O.  Total time remaining (all threads): 18039.
+ 1239.. 1240: LW context switch
+ 1241.. 1354: pid[ 2], tid[ 20], priority[92], remaining time[ 621], burst length [114].  Status:    Blocking I/O.  Total time remaining (all threads): 17925.
+ 1355.. 1356: LW context switch
+ 1357.. 1556: pid[ 2], tid[ 41], priority[82], remaining time[ 214], burst length [201].  Status: Quantum Expired.  Total time remaining (all threads): 17725.
+ 1557.. 1558: LW context switch
+ 1559.. 1672: pid[ 2], tid[ 20], priority[92], remaining time[ 507], burst length [114].  Status:    Blocking I/O.  Total time remaining (all threads): 17611.
+ 1673.. 1674: LW context switch
+ 1675.. 1732: pid[ 2], tid[ 43], priority[83], remaining time[ 701], burst length [ 58].  Status:    Blocking I/O.  Total time remaining (all threads): 17553.
+ 1733.. 1734: LW context switch
+ 1735.. 1848: pid[ 2], tid[ 20], priority[92], remaining time[ 393], burst length [114].  Status:    Blocking I/O.  Total time remaining (all threads): 17439.
+ 1849.. 1850: LW context switch
+ 1851.. 1932: pid[ 2], tid[ 37], priority[84], remaining time[ 974], burst length [ 82].  Status:    Blocking I/O.  Total time remaining (all threads): 17357.
+ 1933.. 1934: LW context switch
+ 1935.. 2048: pid[ 2], tid[ 20], priority[92], remaining time[ 279], burst length [114].  Status:    Blocking I/O.  Total time remaining (all threads): 17243.
+ 2049.. 2050: LW context switch
+ 2051.. 2102: pid[ 2], tid[ 46], priority[86], remaining time[  52], burst length [123].  Status:      Terminated.  Total time remaining (all threads): 17191.
+ 2103.. 2104: LW context switch
+ 2105.. 2218: pid[ 2], tid[ 20], priority[92], remaining time[ 165], burst length [114].  Status:    Blocking I/O.  Total time remaining (all threads): 17077.
+ 2219.. 2220: LW context switch
+ 2221.. 2420: pid[ 2], tid[ 34], priority[87], remaining time[ 555], burst length [210].  Status: Quantum Expired.  Total time remaining (all threads): 16877.
+ 2421.. 2422: LW context switch
+ 2423.. 2473: pid[ 2], tid[ 20], priority[92], remaining time[  51], burst length [114].  Status:      Terminated.  Total time remaining (all threads): 16826.
+ 2474.. 2475: LW context switch
+ 2476.. 2655: pid[ 2], tid[ 42], priority[88], remaining time[ 820], burst length [180].  Status:    Blocking I/O.  Total time remaining (all threads): 16646.
+ 2656.. 2657: LW context switch
+ 2658.. 2738: pid[ 2], tid[ 48], priority[88], remaining time[ 625], burst length [ 81].  Status:    Blocking I/O.  Total time remaining (all threads): 16565.
+ 2739.. 2740: LW context switch
+ 2741.. 2931: pid[ 2], tid[ 27], priority[89], remaining time[ 956], burst length [191].  Status:    Blocking I/O.  Total time remaining (all threads): 16374.
+ 2932.. 2933: LW context switch
+ 2934.. 2947: pid[ 2], tid[ 41], priority[89], remaining time[  14], burst length [201].  Status:      Terminated.  Total time remaining (all threads): 16360.
+ 2948.. 2957: HW context switch
+ 2958.. 3123: pid[ 1], tid[  9], priority[89], remaining time[ 770], burst length [166].  Status:    Blocking I/O.  Total time remaining (all threads): 16194.
+ 3124.. 3133: HW context switch
+ 3134.. 3271: pid[ 2], tid[ 39], priority[88], remaining time[ 381], burst length [138].  Status:    Blocking I/O.  Total time remaining (all threads): 16056.
+ 3272.. 3273: LW context switch
+ 3274.. 3331: pid[ 2], tid[ 43], priority[88], remaining time[ 643], burst length [ 58].  Status:    Blocking I/O.  Total time remaining (all threads): 15998.
+ 3332.. 3333: LW context switch
+ 3334.. 3419: pid[ 2], tid[ 25], priority[84], remaining time[ 322], burst length [ 86].  Status:    Blocking I/O.  Total time remaining (all threads): 15912.
+ 3420.. 3421: LW context switch
+ 3422.. 3621: pid[ 2], tid[ 34], priority[85], remaining time[ 355], burst length [210].  Status: Quantum Expired.  Total time remaining (all threads): 15712.
+ 3622.. 3623: LW context switch
+ 3624.. 3705: pid[ 2], tid[ 37], priority[85], remaining time[ 892], burst length [ 82].  Status:    Blocking I/O.  Total time remaining (all threads): 15630.
+ 3706.. 3707: LW context switch
+ 3708.. 3900: pid[ 2], tid[ 32], priority[85], remaining time[ 478], burst length [193].  Status:    Blocking I/O.  Total time remaining (all threads): 15437.
+ 3901.. 3902: LW context switch
+ 3903.. 3983: pid[ 2], tid[ 48], priority[85], remaining time[ 544], burst length [ 81].  Status:    Blocking I/O.  Total time remaining (all threads): 15356.
+ 3984.. 3993: HW context switch
+ 3994.. 4131: pid[ 1], tid[  3], priority[86], remaining time[ 196], burst length [138].  Status:    Blocking I/O.  Total time remaining (all threads): 15218.
+ 4132.. 4141: HW context switch
+ 4142.. 4247: pid[ 2], tid[ 45], priority[86], remaining time[ 540], burst length [106].  Status:    Blocking I/O.  Total time remaining (all threads): 15112.
+ 4248.. 4257: HW context switch
+ 4258.. 4389: pid[ 1], tid[  6], priority[85], remaining time[ 183], burst length [132].  Status:    Blocking I/O.  Total time remaining (all threads): 14980.
+ 4390.. 4399: HW context switch
+ 4400.. 4400: pid[ 2], tid[ 26], priority[86], remaining time[   1], burst length [192].  Status:      Terminated.  Total time remaining (all threads): 14979.
+ 4401.. 4402: LW context switch
+ 4403.. 4460: pid[ 2], tid[ 43], priority[84], remaining time[ 585], burst length [ 58].  Status:    Blocking I/O.  Total time remaining (all threads): 14921.
+ 4461.. 4462: LW context switch
+ 4463.. 4642: pid[ 2], tid[ 42], priority[85], remaining time[ 640], burst length [180].  Status:    Blocking I/O.  Total time remaining (all threads): 14741.
+ 4643.. 4644: LW context switch
+ 4645.. 4799: pid[ 2], tid[ 34], priority[85], remaining time[ 155], burst length [210].  Status:      Terminated.  Total time remaining (all threads): 14586.
+ 4800.. 4801: LW context switch
+ 4802.. 4992: pid[ 2], tid[ 27], priority[84], remaining time[ 765], burst length [191].  Status:    Blocking I/O.  Total time remaining (all threads): 14395.
+ 4993.. 4994: LW context switch
+ 4995.. 5075: pid[ 2], tid[ 48], priority[84], remaining time[ 463], burst length [ 81].  Status:    Blocking I/O.  Total time remaining (all threads): 14314.
+ 5076.. 5077: LW context switch
+ 5078.. 5194: pid[ 2], tid[ 28], priority[84], remaining time[ 172], burst length [117].  Status:    Blocking I/O.  Total time remaining (all threads): 14197.
+ 5195.. 5196: LW context switch
+ 5197.. 5278: pid[ 2], tid[ 37], priority[83], remaining time[ 810], burst length [ 82].  Status:    Blocking I/O.  Total time remaining (all threads): 14115.
+ 5279.. 5288: HW context switch
+ 5289.. 5454: pid[ 1], tid[  9], priority[83], remaining time[ 604], burst length [166].  Status:    Blocking I/O.  Total time remaining (all threads): 13949.
+ 5455.. 5464: HW context switch
+ 5465.. 5595: pid[ 2], tid[ 40], priority[84], remaining time[ 131], burst length [248].  Status:      Terminated.  Total time remaining (all threads): 13818.
+ 5596.. 5597: LW context switch
+ 5598.. 5735: pid[ 2], tid[ 39], priority[84], remaining time[ 243], burst length [138].  Status:    Blocking I/O.  Total time remaining (all threads): 13680.
+ 5736.. 5737: LW context switch
+ 5738.. 5795: pid[ 2], tid[ 43], priority[84], remaining time[ 527], burst length [ 58].  Status:    Blocking I/O.  Total time remaining (all threads): 13622.
+ 5796.. 5797: LW context switch
+ 5798.. 5902: pid[ 2], tid[ 22], priority[85], remaining time[ 403], burst length [105].  Status:    Blocking I/O.  Total time remaining (all threads): 13517.
+ 5903.. 5904: LW context switch
+ 5905.. 5985: pid[ 2], tid[ 48], priority[83], remaining time[ 382], burst length [ 81].  Status:    Blocking I/O.  Total time remaining (all threads): 13436.
+ 5986.. 5987: LW context switch
+ 5988.. 6073: pid[ 2], tid[ 25], priority[84], remaining time[ 236], burst length [ 86].  Status:    Blocking I/O.  Total time remaining (all threads): 13350.
+ 6074.. 6075: LW context switch
+ 6076.. 6197: pid[ 2], tid[ 30], priority[82], remaining time[ 122], burst length [166].  Status:      Terminated.  Total time remaining (all threads): 13228.
+ 6198.. 6199: LW context switch
+ 6200.. 6379: pid[ 2], tid[ 42], priority[82], remaining time[ 460], burst length [180].  Status:    Blocking I/O.  Total time remaining (all threads): 13048.
+ 6380.. 6389: HW context switch
+ 6390.. 6548: pid[ 1], tid[ 11], priority[82], remaining time[ 874], burst length [159].  Status:    Blocking I/O.  Total time remaining (all threads): 12889.
+ 6549.. 6558: HW context switch
+ 6559.. 6691: pid[ 2], tid[ 36], priority[82], remaining time[ 133], burst length [157].  Status:      Terminated.  Total time remaining (all threads): 12756.
+ 6692.. 6693: LW context switch
+ 6694.. 6751: pid[ 2], tid[ 43], priority[82], remaining time[ 469], burst length [ 58].  Status:    Blocking I/O.  Total time remaining (all threads): 12698.
+ 6752.. 6753: LW context switch
+ 6754.. 6835: pid[ 2], tid[ 37], priority[83], remaining time[ 728], burst length [ 82].  Status:    Blocking I/O.  Total time remaining (all threads): 12616.
+ 6836.. 6837: LW context switch
+ 6838.. 6991: pid[ 2], tid[ 31], priority[84], remaining time[ 368], burst length [154].  Status:    Blocking I/O.  Total time remaining (all threads): 12462.
+ 6992.. 6993: LW context switch
+ 6994.. 7184: pid[ 2], tid[ 27], priority[85], remaining time[ 574], burst length [191].  Status:    Blocking I/O.  Total time remaining (all threads): 12271.
+ 7185.. 7186: LW context switch
+ 7187.. 7267: pid[ 2], tid[ 48], priority[85], remaining time[ 301], burst length [ 81].  Status:    Blocking I/O.  Total time remaining (all threads): 12190.
+ 7268.. 7277: HW context switch
+ 7278.. 7335: pid[ 1], tid[  3], priority[85], remaining time[  58], burst length [138].  Status:      Terminated.  Total time remaining (all threads): 12132.
+ 7336.. 7345: HW context switch
+ 7346.. 7538: pid[ 2], tid[ 32], priority[85], remaining time[ 285], burst length [193].  Status:    Blocking I/O.  Total time remaining (all threads): 11939.
+ 7539.. 7540: LW context switch
+ 7541.. 7740: pid[ 2], tid[ 35], priority[86], remaining time[ 642], burst length [222].  Status: Quantum Expired.  Total time remaining (all threads): 11739.
+ 7741.. 7742: LW context switch
+ 7743.. 7818: pid[ 2], tid[ 29], priority[85], remaining time[ 669], burst length [ 76].  Status:    Blocking I/O.  Total time remaining (all threads): 11663.
+ 7819.. 7820: LW context switch
+ 7821.. 7924: pid[ 2], tid[ 33], priority[86], remaining time[ 104], burst length [203].  Status:      Terminated.  Total time remaining (all threads): 11559.
+ 7925.. 7934: HW context switch
+ 7935.. 8046: pid[ 1], tid[  2], priority[87], remaining time[ 112], burst length [221].  Status:      Terminated.  Total time remaining (all threads): 11447.
+ 8047.. 8048: LW context switch
+ 8049.. 8166: pid[ 1], tid[  5], priority[87], remaining time[ 429], burst length [118].  Status:    Blocking I/O.  Total time remaining (all threads): 11329.
+ 8167.. 8168: LW context switch
+ 8169.. 8334: pid[ 1], tid[  9], priority[87], remaining time[ 438], burst length [166].  Status:    Blocking I/O.  Total time remaining (all threads): 11163.
+ 8335.. 8344: HW context switch
+ 8345.. 8402: pid[ 2], tid[ 43], priority[87], remaining time[ 411], burst length [ 58].  Status:    Blocking I/O.  Total time remaining (all threads): 11105.
+ 8403.. 8404: LW context switch
+ 8405.. 8481: pid[ 2], tid[ 44], priority[88], remaining time[ 802], burst length [ 77].  Status:    Blocking I/O.  Total time remaining (all threads): 11028.
+ 8482.. 8483: LW context switch
+ 8484.. 8683: pid[ 2], tid[ 23], priority[89], remaining time[ 525], burst length [249].  Status: Quantum Expired.  Total time remaining (all threads): 10828.
+ 8684.. 8685: LW context switch
+ 8686.. 8790: pid[ 2], tid[ 39], priority[89], remaining time[ 105], burst length [138].  Status:      Terminated.  Total time remaining (all threads): 10723.
+ 8791.. 8792: LW context switch
+ 8793.. 8898: pid[ 2], tid[ 45], priority[89], remaining time[ 434], burst length [106].  Status:    Blocking I/O.  Total time remaining (all threads): 10617.
+ 8899.. 8908: HW context switch
+ 8909.. 8988: pid[ 1], tid[  7], priority[89], remaining time[ 886], burst length [ 80].  Status:    Blocking I/O.  Total time remaining (all threads): 10537.
+ 8989.. 8998: HW context switch
+ 8999.. 9079: pid[ 2], tid[ 48], priority[90], remaining time[ 220], burst length [ 81].  Status:    Blocking I/O.  Total time remaining (all threads): 10456.
+ 9080.. 9089: HW context switch
+ 9090.. 9140: pid[ 1], tid[  6], priority[91], remaining time[  51], burst length [132].  Status:      Terminated.  Total time remaining (all threads): 10405.
+ 9141.. 9150: HW context switch
+ 9151.. 9330: pid[ 2], tid[ 42], priority[92], remaining time[ 280], burst length [180].  Status:    Blocking I/O.  Total time remaining (all threads): 10225.
+ 9331.. 9332: LW context switch
+ 9333.. 9414: pid[ 2], tid[ 37], priority[91], remaining time[ 646], burst length [ 82].  Status:    Blocking I/O.  Total time remaining (all threads): 10143.
+ 9415.. 9416: LW context switch
+ 9417.. 9502: pid[ 2], tid[ 25], priority[90], remaining time[ 150], burst length [ 86].  Status:    Blocking I/O.  Total time remaining (all threads): 10057.
+ 9503.. 9512: HW context switch
+ 9513.. 9637: pid[ 1], tid[  8], priority[91], remaining time[ 707], burst length [125].  Status:    Blocking I/O.  Total time remaining (all threads): 9932.
+ 9638.. 9647: HW context switch
+ 9648.. 9791: pid[ 2], tid[ 47], priority[91], remaining time[ 144], burst length [161].  Status:      Terminated.  Total time remaining (all threads): 9788.
+ 9792.. 9793: LW context switch
+ 9794.. 9984: pid[ 2], tid[ 27], priority[90], remaining time[ 383], burst length [191].  Status:    Blocking I/O.  Total time remaining (all threads): 9597.
+ 9985.. 9986: LW context switch
+ 9987..10110: pid[ 2], tid[ 24], priority[89], remaining time[ 767], burst length [124].  Status:    Blocking I/O.  Total time remaining (all threads): 9473.
+10111..10112: LW context switch
+10113..10170: pid[ 2], tid[ 43], priority[89], remaining time[ 353], burst length [ 58].  Status:    Blocking I/O.  Total time remaining (all threads): 9415.
+10171..10172: LW context switch
+10173..10227: pid[ 2], tid[ 28], priority[87], remaining time[  55], burst length [117].  Status:      Terminated.  Total time remaining (all threads): 9360.
+10228..10229: LW context switch
+10230..10310: pid[ 2], tid[ 48], priority[86], remaining time[ 139], burst length [ 81].  Status:    Blocking I/O.  Total time remaining (all threads): 9279.
+10311..10312: LW context switch
+10313..10512: pid[ 2], tid[ 21], priority[87], remaining time[ 567], burst length [232].  Status: Quantum Expired.  Total time remaining (all threads): 9079.
+10513..10514: LW context switch
+10515..10714: pid[ 2], tid[ 38], priority[86], remaining time[ 318], burst length [233].  Status: Quantum Expired.  Total time remaining (all threads): 8879.
+10715..10724: HW context switch
+10725..10890: pid[ 1], tid[  9], priority[85], remaining time[ 272], burst length [166].  Status:    Blocking I/O.  Total time remaining (all threads): 8713.
+10891..10892: LW context switch
+10893..11092: pid[ 1], tid[  4], priority[84], remaining time[ 775], burst length [227].  Status: Quantum Expired.  Total time remaining (all threads): 8513.
+11093..11102: HW context switch
+11103..11194: pid[ 2], tid[ 32], priority[84], remaining time[  92], burst length [193].  Status:      Terminated.  Total time remaining (all threads): 8421.
+11195..11196: LW context switch
+11197..11278: pid[ 2], tid[ 37], priority[84], remaining time[ 564], burst length [ 82].  Status:    Blocking I/O.  Total time remaining (all threads): 8339.
+11279..11280: LW context switch
+11281..11380: pid[ 2], tid[ 42], priority[84], remaining time[ 100], burst length [180].  Status:      Terminated.  Total time remaining (all threads): 8239.
+11381..11382: LW context switch
+11383..11440: pid[ 2], tid[ 43], priority[84], remaining time[ 295], burst length [ 58].  Status:    Blocking I/O.  Total time remaining (all threads): 8181.
+11441..11442: LW context switch
+11443..11500: pid[ 2], tid[ 48], priority[84], remaining time[  58], burst length [ 81].  Status:      Terminated.  Total time remaining (all threads): 8123.
+11501..11502: LW context switch
+11503..11607: pid[ 2], tid[ 22], priority[85], remaining time[ 298], burst length [105].  Status:    Blocking I/O.  Total time remaining (all threads): 8018.
+11608..11609: LW context switch
+11610..11800: pid[ 2], tid[ 27], priority[82], remaining time[ 192], burst length [191].  Status:    Blocking I/O.  Total time remaining (all threads): 7827.
+11801..11802: LW context switch
+11803..11866: pid[ 2], tid[ 25], priority[81], remaining time[  64], burst length [ 86].  Status:      Terminated.  Total time remaining (all threads): 7763.
+11867..11868: LW context switch
+11869..11926: pid[ 2], tid[ 43], priority[79], remaining time[ 237], burst length [ 58].  Status:    Blocking I/O.  Total time remaining (all threads): 7705.
+11927..11928: LW context switch
+11929..12010: pid[ 2], tid[ 37], priority[78], remaining time[ 482], burst length [ 82].  Status:    Blocking I/O.  Total time remaining (all threads): 7623.
+12011..12012: LW context switch
+12013..12118: pid[ 2], tid[ 45], priority[79], remaining time[ 328], burst length [106].  Status:    Blocking I/O.  Total time remaining (all threads): 7517.
+12119..12128: HW context switch
+12129..12287: pid[ 1], tid[ 11], priority[78], remaining time[ 715], burst length [159].  Status:    Blocking I/O.  Total time remaining (all threads): 7358.
+12288..12297: HW context switch
+12298..12355: pid[ 2], tid[ 43], priority[78], remaining time[ 179], burst length [ 58].  Status:    Blocking I/O.  Total time remaining (all threads): 7300.
+12356..12357: LW context switch
+12358..12511: pid[ 2], tid[ 31], priority[79], remaining time[ 214], burst length [154].  Status:    Blocking I/O.  Total time remaining (all threads): 7146.
+12512..12521: HW context switch
+12522..12627: pid[ 1], tid[  9], priority[80], remaining time[ 106], burst length [166].  Status:      Terminated.  Total time remaining (all threads): 7040.
+12628..12637: HW context switch
+12638..12695: pid[ 2], tid[ 43], priority[77], remaining time[ 121], burst length [ 58].  Status:    Blocking I/O.  Total time remaining (all threads): 6982.
+12696..12697: LW context switch
+12698..12779: pid[ 2], tid[ 37], priority[77], remaining time[ 400], burst length [ 82].  Status:    Blocking I/O.  Total time remaining (all threads): 6900.
+12780..12781: LW context switch
+12782..12782: pid[ 2], tid[ 27], priority[78], remaining time[   1], burst length [191].  Status:      Terminated.  Total time remaining (all threads): 6899.
+12783..12784: LW context switch
+12785..12842: pid[ 2], tid[ 43], priority[77], remaining time[  63], burst length [ 58].  Status:    Blocking I/O.  Total time remaining (all threads): 6841.
+12843..12844: LW context switch
+12845..12920: pid[ 2], tid[ 29], priority[73], remaining time[ 593], burst length [ 76].  Status:    Blocking I/O.  Total time remaining (all threads): 6765.
+12921..12922: LW context switch
+12923..12927: pid[ 2], tid[ 43], priority[76], remaining time[   5], burst length [ 58].  Status:      Terminated.  Total time remaining (all threads): 6760.
+12928..12929: LW context switch
+12930..13129: pid[ 2], tid[ 35], priority[75], remaining time[ 442], burst length [222].  Status: Quantum Expired.  Total time remaining (all threads): 6560.
+13130..13131: LW context switch
+13132..13213: pid[ 2], tid[ 37], priority[75], remaining time[ 318], burst length [ 82].  Status:    Blocking I/O.  Total time remaining (all threads): 6478.
+13214..13223: HW context switch
+13224..13341: pid[ 1], tid[  5], priority[69], remaining time[ 311], burst length [118].  Status:    Blocking I/O.  Total time remaining (all threads): 6360.
+13342..13351: HW context switch
+13352..13433: pid[ 2], tid[ 37], priority[72], remaining time[ 236], burst length [ 82].  Status:    Blocking I/O.  Total time remaining (all threads): 6278.
+13434..13435: LW context switch
+13436..13512: pid[ 2], tid[ 44], priority[67], remaining time[ 725], burst length [ 77].  Status:    Blocking I/O.  Total time remaining (all threads): 6201.
+13513..13514: LW context switch
+13515..13596: pid[ 2], tid[ 37], priority[72], remaining time[ 154], burst length [ 82].  Status:    Blocking I/O.  Total time remaining (all threads): 6119.
+13597..13598: LW context switch
+13599..13704: pid[ 2], tid[ 45], priority[68], remaining time[ 222], burst length [106].  Status:    Blocking I/O.  Total time remaining (all threads): 6013.
+13705..13706: LW context switch
+13707..13778: pid[ 2], tid[ 37], priority[72], remaining time[  72], burst length [ 82].  Status:      Terminated.  Total time remaining (all threads): 5941.
+13779..13780: LW context switch
+13781..13980: pid[ 2], tid[ 23], priority[68], remaining time[ 325], burst length [249].  Status: Quantum Expired.  Total time remaining (all threads): 5741.
+13981..13990: HW context switch
+13991..14070: pid[ 1], tid[  7], priority[68], remaining time[ 806], burst length [ 80].  Status:    Blocking I/O.  Total time remaining (all threads): 5661.
+14071..14080: HW context switch
+14081..14185: pid[ 2], tid[ 22], priority[64], remaining time[ 193], burst length [105].  Status:    Blocking I/O.  Total time remaining (all threads): 5556.
+14186..14195: HW context switch
+14196..14320: pid[ 1], tid[  8], priority[60], remaining time[ 582], burst length [125].  Status:    Blocking I/O.  Total time remaining (all threads): 5431.
+14321..14330: HW context switch
+14331..14436: pid[ 2], tid[ 45], priority[57], remaining time[ 116], burst length [106].  Status:    Blocking I/O.  Total time remaining (all threads): 5325.
+14437..14438: LW context switch
+14439..14498: pid[ 2], tid[ 31], priority[54], remaining time[  60], burst length [154].  Status:      Terminated.  Total time remaining (all threads): 5265.
+14499..14500: LW context switch
+14501..14624: pid[ 2], tid[ 24], priority[54], remaining time[ 643], burst length [124].  Status:    Blocking I/O.  Total time remaining (all threads): 5141.
+14625..14634: HW context switch
+14635..14793: pid[ 1], tid[ 11], priority[55], remaining time[ 556], burst length [159].  Status:    Blocking I/O.  Total time remaining (all threads): 4982.
+14794..14803: HW context switch
+14804..14813: pid[ 2], tid[ 45], priority[55], remaining time[  10], burst length [106].  Status:      Terminated.  Total time remaining (all threads): 4972.
+14814..14815: LW context switch
+14816..15015: pid[ 2], tid[ 21], priority[49], remaining time[ 367], burst length [232].  Status: Quantum Expired.  Total time remaining (all threads): 4772.
+15016..15017: LW context switch
+15018..15093: pid[ 2], tid[ 29], priority[46], remaining time[ 517], burst length [ 76].  Status:    Blocking I/O.  Total time remaining (all threads): 4696.
+15094..15095: LW context switch
+15096..15183: pid[ 2], tid[ 22], priority[47], remaining time[  88], burst length [105].  Status:      Terminated.  Total time remaining (all threads): 4608.
+15184..15185: LW context switch
+15186..15303: pid[ 2], tid[ 38], priority[48], remaining time[ 118], burst length [233].  Status:      Terminated.  Total time remaining (all threads): 4490.
+15304..15305: LW context switch
+15306..15505: pid[ 2], tid[ 35], priority[47], remaining time[ 242], burst length [222].  Status: Quantum Expired.  Total time remaining (all threads): 4290.
+15506..15515: HW context switch
+15516..15715: pid[ 1], tid[  4], priority[44], remaining time[ 575], burst length [227].  Status: Quantum Expired.  Total time remaining (all threads): 4090.
+15716..15717: LW context switch
+15718..15835: pid[ 1], tid[  5], priority[43], remaining time[ 193], burst length [118].  Status:    Blocking I/O.  Total time remaining (all threads): 3972.
+15836..15845: HW context switch
+15846..15922: pid[ 2], tid[ 44], priority[41], remaining time[ 648], burst length [ 77].  Status:    Blocking I/O.  Total time remaining (all threads): 3895.
+15923..15932: HW context switch
+15933..16091: pid[ 1], tid[ 11], priority[40], remaining time[ 397], burst length [159].  Status:    Blocking I/O.  Total time remaining (all threads): 3736.
+16092..16093: LW context switch
+16094..16173: pid[ 1], tid[  7], priority[38], remaining time[ 726], burst length [ 80].  Status:    Blocking I/O.  Total time remaining (all threads): 3656.
+16174..16183: HW context switch
+16184..16308: pid[ 2], tid[ 23], priority[38], remaining time[ 125], burst length [249].  Status:      Terminated.  Total time remaining (all threads): 3531.
+16309..16310: LW context switch
+16311..16386: pid[ 2], tid[ 29], priority[37], remaining time[ 441], burst length [ 76].  Status:    Blocking I/O.  Total time remaining (all threads): 3455.
+16387..16396: HW context switch
+16397..16521: pid[ 1], tid[  8], priority[35], remaining time[ 457], burst length [125].  Status:    Blocking I/O.  Total time remaining (all threads): 3330.
+16522..16523: LW context switch
+16524..16682: pid[ 1], tid[ 11], priority[35], remaining time[ 238], burst length [159].  Status:    Blocking I/O.  Total time remaining (all threads): 3171.
+16683..16692: HW context switch
+16693..16734: pid[ 2], tid[ 35], priority[36], remaining time[  42], burst length [222].  Status:      Terminated.  Total time remaining (all threads): 3129.
+16735..16744: HW context switch
+16745..16823: pid[ 1], tid[ 11], priority[32], remaining time[  79], burst length [159].  Status:      Terminated.  Total time remaining (all threads): 3050.
+16824..16833: HW context switch
+16834..16909: pid[ 2], tid[ 29], priority[32], remaining time[ 365], burst length [ 76].  Status:    Blocking I/O.  Total time remaining (all threads): 2974.
+16910..16919: HW context switch
+16920..16994: pid[ 1], tid[  5], priority[33], remaining time[  75], burst length [118].  Status:      Terminated.  Total time remaining (all threads): 2899.
+16995..17004: HW context switch
+17005..17081: pid[ 2], tid[ 44], priority[32], remaining time[ 571], burst length [ 77].  Status:    Blocking I/O.  Total time remaining (all threads): 2822.
+17082..17083: LW context switch
+17084..17207: pid[ 2], tid[ 24], priority[33], remaining time[ 519], burst length [124].  Status:    Blocking I/O.  Total time remaining (all threads): 2698.
+17208..17217: HW context switch
+17218..17297: pid[ 1], tid[  7], priority[32], remaining time[ 646], burst length [ 80].  Status:    Blocking I/O.  Total time remaining (all threads): 2618.
+17298..17307: HW context switch
+17308..17383: pid[ 2], tid[ 29], priority[32], remaining time[ 289], burst length [ 76].  Status:    Blocking I/O.  Total time remaining (all threads): 2542.
+17384..17385: LW context switch
+17386..17552: pid[ 2], tid[ 21], priority[29], remaining time[ 167], burst length [232].  Status:      Terminated.  Total time remaining (all threads): 2375.
+17553..17554: LW context switch
+17555..17630: pid[ 2], tid[ 29], priority[29], remaining time[ 213], burst length [ 76].  Status:    Blocking I/O.  Total time remaining (all threads): 2299.
+17631..17640: HW context switch
+17641..17765: pid[ 1], tid[  8], priority[29], remaining time[ 332], burst length [125].  Status:    Blocking I/O.  Total time remaining (all threads): 2174.
+17766..17775: HW context switch
+17776..17851: pid[ 2], tid[ 29], priority[29], remaining time[ 137], burst length [ 76].  Status:    Blocking I/O.  Total time remaining (all threads): 2098.
+17852..17853: LW context switch
+17854..17930: pid[ 2], tid[ 44], priority[29], remaining time[ 494], burst length [ 77].  Status:    Blocking I/O.  Total time remaining (all threads): 2021.
+17931..17932: LW context switch
+17933..17993: pid[ 2], tid[ 29], priority[29], remaining time[  61], burst length [ 76].  Status:      Terminated.  Total time remaining (all threads): 1960.
+17994..18003: HW context switch
+18004..18083: pid[ 1], tid[  7], priority[29], remaining time[ 566], burst length [ 80].  Status:    Blocking I/O.  Total time remaining (all threads): 1880.
+18084..18093: HW context switch
+18094..18170: pid[ 2], tid[ 44], priority[24], remaining time[ 417], burst length [ 77].  Status:    Blocking I/O.  Total time remaining (all threads): 1803.
+18171..18180: HW context switch
+18181..18380: pid[ 1], tid[  4], priority[25], remaining time[ 375], burst length [227].  Status: Quantum Expired.  Total time remaining (all threads): 1603.
+18381..18382: LW context switch
+18383..18462: pid[ 1], tid[  7], priority[24], remaining time[ 486], burst length [ 80].  Status:    Blocking I/O.  Total time remaining (all threads): 1523.
+18463..18464: LW context switch
+18465..18589: pid[ 1], tid[  8], priority[25], remaining time[ 207], burst length [125].  Status:    Blocking I/O.  Total time remaining (all threads): 1398.
+18590..18599: HW context switch
+18600..18676: pid[ 2], tid[ 44], priority[25], remaining time[ 340], burst length [ 77].  Status:    Blocking I/O.  Total time remaining (all threads): 1321.
+18677..18678: LW context switch
+18679..18802: pid[ 2], tid[ 24], priority[26], remaining time[ 395], burst length [124].  Status:    Blocking I/O.  Total time remaining (all threads): 1197.
+18803..18812: HW context switch
+18813..18892: pid[ 1], tid[  7], priority[25], remaining time[ 406], burst length [ 80].  Status:    Blocking I/O.  Total time remaining (all threads): 1117.
+18893..18902: HW context switch
+18903..18979: pid[ 2], tid[ 44], priority[24], remaining time[ 263], burst length [ 77].  Status:    Blocking I/O.  Total time remaining (all threads): 1040.
+18980..18989: HW context switch
+18990..19069: pid[ 1], tid[  7], priority[23], remaining time[ 326], burst length [ 80].  Status:    Blocking I/O.  Total time remaining (all threads): 960.
+19070..19079: HW context switch
+19080..19156: pid[ 2], tid[ 44], priority[23], remaining time[ 186], burst length [ 77].  Status:    Blocking I/O.  Total time remaining (all threads): 883.
+19157..19166: HW context switch
+19167..19248: pid[ 1], tid[  8], priority[24], remaining time[  82], burst length [125].  Status:      Terminated.  Total time remaining (all threads): 801.
+19249..19250: LW context switch
+19251..19330: pid[ 1], tid[  7], priority[24], remaining time[ 246], burst length [ 80].  Status:    Blocking I/O.  Total time remaining (all threads): 721.
+19331..19340: HW context switch
+19341..19417: pid[ 2], tid[ 44], priority[24], remaining time[ 109], burst length [ 77].  Status:    Blocking I/O.  Total time remaining (all threads): 644.
+19418..19427: HW context switch
+19428..19507: pid[ 1], tid[  7], priority[23], remaining time[ 166], burst length [ 80].  Status:    Blocking I/O.  Total time remaining (all threads): 564.
+19508..19517: HW context switch
+19518..19549: pid[ 2], tid[ 44], priority[23], remaining time[  32], burst length [ 77].  Status:      Terminated.  Total time remaining (all threads): 532.
+19550..19559: HW context switch
+19560..19639: pid[ 1], tid[  7], priority[23], remaining time[  86], burst length [ 80].  Status:    Blocking I/O.  Total time remaining (all threads): 452.
+19640..19649: HW context switch
+19650..19773: pid[ 2], tid[ 24], priority[22], remaining time[ 271], burst length [124].  Status:    Blocking I/O.  Total time remaining (all threads): 328.
+19774..19783: HW context switch
+19784..19789: pid[ 1], tid[  7], priority[23], remaining time[   6], burst length [ 80].  Status:      Terminated.  Total time remaining (all threads): 322.
+19790..19791: LW context switch
+19792..19966: pid[ 1], tid[  4], priority[17], remaining time[ 175], burst length [227].  Status:      Terminated.  Total time remaining (all threads): 147.
+19967..19976: HW context switch
+19977..20100: pid[ 2], tid[ 24], priority[14], remaining time[ 147], burst length [124].  Status:    Blocking I/O.  Total time remaining (all threads): 23.
+20101..20108: ********** IDLE **********, Total time remaining (all threads): 23.
+20109..20131: pid[ 2], tid[ 24], priority[13], remaining time[  23], burst length [124].  Status:      Terminated.  Total time remaining (all threads): 0.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+CPU Utilization (100 - (idle / in use))                     : 99.92%
+# of lightweight context switches                           :    111
+# of heavyweight context switches                           :     66
+Lightweight context switch time                             :    222
+Heavyweight context switch time                             :    660
+% CPU time spent processing (i.e. not CS'ing, not idle)     : 95.53%

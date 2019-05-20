@@ -1,0 +1,89 @@
+﻿@model Tuple<MyCustomers.Models.Movie, IEnumerable<Review>>
+@{
+    ViewData["Title"] = "MovieDetails";
+}
+<div class="desc">
+
+    <img class="poster desc" src="@Model.Item1.PosterFile" />
+    <div class="top_desc">
+        <h3 class="desc">@Model.Item1.Title</h3>
+        <h5 class="desc">| Genre: @Model.Item1.Genre.ToLower() | Director: @Model.Item1.Director | Rated @Model.Item1.Audience | Length: @Model.Item1.Length minutes |</h5>
+        @if (Model.Item1.NumberOfRatings == 0)
+        {
+            <h5 class="desc">This movie isn't rated yet!</h5>
+        }
+        else
+        {
+            <h5 class="desc">Rating: @Model.Item1.Rating.ToString("0.##") Stars</h5>
+        }
+        <h4 class="desc">@Model.Item1.Description</h4>
+    </div>
+    <br />
+
+    @if (User.Identity.IsAuthenticated)
+    {
+        @using (Html.BeginForm("rentMovie", "Home"))
+        {
+            <div class="top_desc">
+                <br />
+                <input type="hidden" value="@User.Identity.Name" name="user" />
+                <input type="hidden" value="@Model.Item1.ID" name="movie" />
+
+                <button type="submit" class="desc">Rent this movie!</button>
+                <br />
+            </div>
+            <br />
+        }
+    }
+
+    @using (Html.BeginForm("updateRating", "Home"))
+    {
+        <input type="hidden" value="@Model.Item1.ID" name="movie" />
+        <div class="top_desc">
+            <h5>Seen it? Review this movie!</h5>
+            <select name="newRating" class="desc">
+                @for (int i = 0; i < 5; i++)
+                {
+                    <option value="@(i+1)">@(i + 1) star</option>
+                }
+            </select>
+            <br />
+            <textarea name="review_txt" class="desc" cols="40" rows="5"></textarea>
+            <br />
+            <button type="submit" class="desc">Submit Review</button>
+            <br>
+        </div>
+        <br />
+        <div class="top_desc">
+            <h3>Reviews</h3>
+
+            <div>
+                @foreach (var review in Model.Item2)
+                {
+                    <div class="review">
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <button style="float: right; margin-bottom:10px;">@Html.ActionLink("Delete review", "DeleteReview", "Home", new { id = review.ID, mid = review.MovieId })</button>
+                        }
+                        <div class="review_rating">
+                            @for (int i = 0; i < review.Rating; i++)
+                            {
+                                <img class="stars" src="~/images/star.png" />
+                            }
+                        </div>
+                        @if (review.Content != null)
+                        {
+                            <div class="review_content">
+                                @review.Content
+                            </div>
+                        }
+
+                    </div>
+                }
+            </div>
+
+        </div>
+    }
+</div>
+
+

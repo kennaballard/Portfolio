@@ -1,0 +1,62 @@
+﻿@model IEnumerable<MyCustomers.Models.Movie>
+@{
+    ViewData["Title"] = "List of movies";
+}
+
+<style>
+    table {
+        table-layout: fixed;
+        width: 100%;
+    }
+</style>
+
+<div style="margin:15px;">
+    <h2>Movies</h2>
+    <table class="table table-hover table-bordered w-auto" id="movies">
+        <thead>
+            <tr>
+                <th scope="col" style="width: 3%;">#</th>
+                <th scope="col">Title</th>
+                <th scope="col" style="width: 8%;">Genre</th>
+                <th scope="col" style="width: 5%;">Length</th>
+                <th scope="col" style="width: 12%;">Director</th>
+                <th scope="col" style="width: 6%;">Audience</th>
+                <th scope="col" style="width: 25%;">Description</th>
+                <th scope="col" style="width: 8%;">ReleaseDate</th>
+                <th scope="col">PosterFile</th>
+                <th style="width: 6%;"></th>
+            </tr>
+        </thead>
+        @foreach (var movie in Model)
+        {
+            <tr>
+                <td scope="row">@movie.ID</td>
+                <td>@movie.Title</td>
+                <td>@movie.Genre</td>
+                <td>@movie.Length</td>
+                <td>@movie.Director</td>
+                <td>@movie.Audience</td>
+                <td>@movie.Description</td>
+                <td>@movie.ReleaseDate</td>
+                <td>@movie.PosterFile</td>
+                <td><button>@Html.ActionLink("Edit", "Edit", "Admin", new { id = movie.ID })</button>
+                    <button>@Html.ActionLink("Delete", "Deleted", "Admin", new { id = movie.ID })</button>
+                </td>
+            </tr>
+        }
+        <form id="new" action="/admin/new" method="post">
+            <tr>
+                <td></td>
+                <td><input type="text" class="form-control" name="title" placeholder="Title" /></td>
+                <td><input type="text" class="form-control" name="genre" placeholder="Genre" /></td>
+                <td><input type="text" class="form-control" name="length" placeholder="Length" /></td>
+                <td><input type="text" class="form-control" name="director" placeholder="Director" /></td>
+                <td><input type="text" class="form-control" name="audience" placeholder="Audience" /></td>
+                <td><input type="text" class="form-control" name="description" placeholder="Description" /></td>
+                <td><input type="text" class="form-control" name="release" placeholder="Release" /></td>
+                <td><input type="text" class="form-control" name="poster" placeholder="Poster" /></td>
+                <td><button type="submit">Add</button></td>
+            </tr>
+        </form>
+    </table>
+</div>
